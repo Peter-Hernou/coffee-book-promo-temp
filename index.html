@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Coffee Book — before the living library, Latte Arte</title>
+<meta name="description" content="Coffee Book by Peter Hernou: 180+ fully worked drinks. Latte Arte was the trigger."/>
+<meta name="robots" content="noindex, nofollow"/>
+<meta name="author" content="Peter Hernou"/>
+<meta name="theme-color" content="#060504"/>
+<style>
+  @font-face {
+    font-family: Syne;
+    src: url("./syne-700.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  :root {
+    --desk: #060504;
+    --gold: #c28f33;
+    --paper: #f5eddb;
+    --display: Syne, Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; min-height: 100%; background: var(--desk); color: var(--paper); font-family: var(--display); }
+  body { min-height: 100svh; display: flex; flex-direction: column; }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 18px 22px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-size: 11px;
+  }
+  .mark { color: var(--gold); }
+  .stage {
+    flex: 1;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 8px;
+    padding: 0 8px 28px;
+    min-height: 0;
+  }
+  .arrow {
+    width: 48px;
+    height: 48px;
+    border: 0;
+    background: transparent;
+    color: var(--paper);
+    font: 700 28px/1 var(--display);
+    cursor: pointer;
+    opacity: 0.55;
+  }
+  .arrow:hover, .arrow:focus-visible { opacity: 1; }
+  .track {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    gap: 18px;
+    padding: 8px 0 18px;
+    -webkit-overflow-scrolling: touch;
+  }
+  .track::-webkit-scrollbar { display: none; }
+  figure {
+    margin: 0;
+    flex: 0 0 auto;
+    scroll-snap-align: center;
+    width: min(1080px, calc(100vw - 120px));
+  }
+  figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 5;
+    object-fit: contain;
+    background: #0e0b08;
+  }
+  .dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding-bottom: 18px;
+  }
+  .dots button {
+    width: 7px;
+    height: 7px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(245, 237, 219, 0.28);
+    cursor: pointer;
+  }
+  .dots button.is-on { background: var(--gold); }
+  .hint {
+    margin: 0 0 22px;
+    text-align: center;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(245, 237, 219, 0.45);
+  }
+  @media (max-width: 700px) {
+    .arrow { width: 32px; }
+    figure { width: min(1080px, calc(100vw - 72px)); }
+    header { font-size: 10px; padding: 14px 14px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .track { scroll-behavior: auto; }
+  }
+</style>
+</head>
+<body>
+  <header>
+    <span class="mark">phmenu.studio</span>
+    <span>Coffee Book</span>
+    <span>Preview</span>
+  </header>
+  <main class="stage">
+    <button class="arrow" type="button" id="prev" aria-label="Previous">‹</button>
+    <div class="track" id="track">
+      <figure><img src="./cards/01.webp" width="1080" height="1350" alt="The Coffee Book — 180+ recipes that go further"/></figure>
+      <figure><img src="./cards/02.webp" width="1080" height="1350" alt="Before the living library, there was Latte Arte"/></figure>
+      <figure><img src="./cards/03.webp" width="1080" height="1350" alt="Not just a recipe. A fully worked drink"/></figure>
+      <figure><img src="./cards/04.webp" width="1080" height="1350" alt="180+ drinks. One living collection"/></figure>
+    </div>
+    <button class="arrow" type="button" id="next" aria-label="Next">›</button>
+  </main>
+  <div class="dots" id="dots" aria-hidden="true"></div>
+  <p class="hint">Swipe or use the arrows</p>
+  <script>
+    (function () {
+      const track = document.getElementById("track");
+      const slides = Array.from(track.querySelectorAll("figure"));
+      const dots = document.getElementById("dots");
+      let i = 0;
+      slides.forEach((_, n) => {
+        const b = document.createElement("button");
+        b.type = "button";
+        b.addEventListener("click", () => go(n));
+        dots.appendChild(b);
+      });
+      function go(n) {
+        i = (n + slides.length) % slides.length;
+        slides[i].scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", inline: "center", block: "nearest" });
+        sync();
+      }
+      function sync() {
+        Array.from(dots.children).forEach((d, n) => d.classList.toggle("is-on", n === i));
+      }
+      document.getElementById("prev").onclick = () => go(i - 1);
+      document.getElementById("next").onclick = () => go(i + 1);
+      track.addEventListener("scroll", () => {
+        const mid = track.scrollLeft + track.clientWidth / 2;
+        let best = 0, dist = Infinity;
+        slides.forEach((el, n) => {
+          const c = el.offsetLeft + el.offsetWidth / 2;
+          const d = Math.abs(c - mid);
+          if (d < dist) { dist = d; best = n; }
+        });
+        i = best;
+        sync();
+      }, { passive: true });
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowRight") go(i + 1);
+        if (e.key === "ArrowLeft") go(i - 1);
+      });
+      sync();
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,3232 @@
+{
+  "ristretto": {
+    "description": "A short cut of espresso. Syrupy, sweet, finished before it thins.",
+    "yield": "18–22 ml ristretto",
+    "ingredients": [
+      "Coffee, espresso dose"
+    ],
+    "method": [
+      "Warm a small cup, 45–60 ml.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 18–22 ml. Stop while the stream is still syrupy.",
+      "Serve at once."
+    ],
+    "proTip": "Ristretto is a shorter espresso, not a small normale.",
+    "serve": "45–60 ml cup. Within seconds of the pour."
+  },
+  "doppio-ristretto": {
+    "description": "Two ristrettos in one cup. Dense body, layered crema, concentrated sweetness.",
+    "yield": "36–44 ml double ristretto",
+    "ingredients": [
+      "Coffee, espresso dose"
+    ],
+    "method": [
+      "Warm a 60–75 ml cup.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 36–44 ml. Stop before the flow turns thin.",
+      "Serve while the crema still sits."
+    ],
+    "proTip": "If one side runs faster, fix the puck before you touch the grinder.",
+    "serve": "60–75 ml cup. Not a large demitasse."
+  },
+  "espresso": {
+    "description": "The house shot. About 30–35 ml — crema, aroma, a short finish.",
+    "yield": "30–35 ml espresso",
+    "ingredients": [
+      "Coffee, espresso dose"
+    ],
+    "method": [
+      "Warm a 50–70 ml cup.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Serve at once."
+    ],
+    "proTip": "Taste the shot before you chase the clock.",
+    "serve": "50–70 ml cup. Immediately."
+  },
+  "double-espresso": {
+    "description": "Two shots in one cup. More body, a longer finish.",
+    "yield": "60–70 ml double espresso",
+    "ingredients": [
+      "Coffee, espresso dose"
+    ],
+    "method": [
+      "Warm a 70–90 ml cup.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 60–70 ml.",
+      "Serve at once."
+    ],
+    "proTip": "A doppio that tastes flat in milk was flat on its own.",
+    "serve": "70–90 ml cup. Immediately."
+  },
+  "triple-espresso": {
+    "description": "Three shots, one cup. Strong, aromatic, drunk fast.",
+    "yield": "90–105 ml, three espressos",
+    "ingredients": [
+      "Coffee, espresso dose"
+    ],
+    "method": [
+      "Warm a 130–150 ml cup.",
+      "Each puck even: distribute, level, tamp straight.",
+      "Pull three shots, 90–105 ml in total.",
+      "Serve while the aroma is still up."
+    ],
+    "proTip": "The third pull should not run faster than the first.",
+    "serve": "130–150 ml cup. Immediately."
+  },
+  "quad-espresso": {
+    "description": "Four shots. Maximum espresso in a short cup.",
+    "yield": "120–140 ml, four espressos",
+    "ingredients": [
+      "Coffee, espresso dose"
+    ],
+    "method": [
+      "Warm a 160–180 ml cup.",
+      "Each puck even: distribute, level, tamp straight.",
+      "Pull four shots, 120–140 ml in total.",
+      "Serve. Do not let it wait."
+    ],
+    "proTip": "Volume waits worse than a single. Watch the flow, then the pass.",
+    "serve": "160–180 ml cup. Immediately."
+  },
+  "espresso-lungo": {
+    "description": "The same puck, pulled longer from the machine. More open, drier — not water in the cup.",
+    "yield": "50–65 ml espresso lungo",
+    "ingredients": [
+      "Coffee, espresso dose"
+    ],
+    "method": [
+      "Warm a 70–90 ml cup.",
+      "Grind on demand. Even puck.",
+      "Extract 50–65 ml from the machine. No water after.",
+      "Serve. It should taste more open than espresso."
+    ],
+    "proTip": "Espresso lungo is a longer pull, not an espresso topped up.",
+    "serve": "70–90 ml cup. Immediately."
+  },
+  "short-black": {
+    "description": "A straight espresso, black, in a small warm cup. The Australian name for the same shot.",
+    "yield": "30–35 ml espresso",
+    "ingredients": [
+      "Coffee, espresso dose"
+    ],
+    "method": [
+      "Warm a 50–70 ml cup.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Serve black. Do not lengthen it."
+    ],
+    "proTip": "Cup heat and a fresh shot. Not more volume.",
+    "serve": "50–70 ml cup. Immediately."
+  },
+  "americano": {
+    "description": "Espresso lengthened with hot water. The aroma opens; the cup stays bright.",
+    "yield": "30–35 ml espresso + 120–150 ml water",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Hot filtered water, 120–150 ml"
+    ],
+    "method": [
+      "Put 120–150 ml hot water in a warm 180–220 ml cup.",
+      "Pull 30–35 ml espresso.",
+      "Pour the shot into the water. Stir once if you need to.",
+      "Serve hot."
+    ],
+    "proTip": "Water you would drink. For more body, a double into the cup while the shot is still running — not a finished shot topped up.",
+    "serve": "200–240 ml cup. Hand hot."
+  },
+  "long-black": {
+    "description": "Water first, espresso last. Similar volume to americano, more crema on top.",
+    "yield": "30–35 ml espresso + 120 ml water",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Hot filtered water, 120 ml"
+    ],
+    "method": [
+      "Hot water in a warm 160–200 ml cup first.",
+      "Pull 30–35 ml espresso over the water.",
+      "Leave the crema. Do not stir unless you must.",
+      "Serve hot."
+    ],
+    "proTip": "The drink is the order: water first, espresso last.",
+    "serve": "160–200 ml cup. Crema visible."
+  },
+  "red-eye": {
+    "description": "Filter coffee with one espresso in it. More body, still a brewed cup.",
+    "yield": "30–35 ml espresso + 160–190 ml brew",
+    "ingredients": [
+      "Fresh filter coffee, 160–190 ml",
+      "Coffee, espresso dose"
+    ],
+    "method": [
+      "Pour 160–190 ml fresh brew into a warm 200–240 ml cup.",
+      "Pull 30–35 ml espresso.",
+      "Add the shot to the brew. Stir once if you need to.",
+      "Serve hot."
+    ],
+    "proTip": "The brew is the drink. Hot water instead of coffee makes an americano.",
+    "serve": "200–240 ml cup. Hot and fresh."
+  },
+  "black-eye": {
+    "description": "Filter coffee with two espressos. Heavier than a Red Eye — still brewed, not a large americano.",
+    "yield": "60–70 ml espresso + 150–180 ml brew",
+    "ingredients": [
+      "Fresh filter coffee, 150–180 ml",
+      "Coffee, espresso dose"
+    ],
+    "method": [
+      "Pour 150–180 ml fresh brew into a warm 220–260 ml cup.",
+      "Pull two shots, about 30–35 ml each.",
+      "Add both to the brew. Stir once if you need to.",
+      "Serve hot. Do not stretch it into a bigger cup."
+    ],
+    "proTip": "Brewed coffee with espresso force — not a long black with extra shots.",
+    "serve": "220–260 ml cup. Hot and fresh."
+  },
+  "lungo": {
+    "description": "A longer extraction, coarser than espresso. Softer body, a drier edge. Not espresso plus water.",
+    "yield": "130–180 ml lungo",
+    "ingredients": [
+      "Coffee, lungo dose"
+    ],
+    "method": [
+      "Warm a 180–220 ml cup.",
+      "Grind a step coarser than espresso. Slightly lighter dose if the basket allows.",
+      "Extract 130–180 ml from the machine.",
+      "Serve. Softer than espresso, a little more bitter."
+    ],
+    "proTip": "Change the extraction. Do not dilute a finished espresso.",
+    "serve": "180–220 ml cup."
+  },
+  "caffe-crema": {
+    "description": "Swiss long pull. Golden crema, 90–120 ml from the machine, softer than espresso.",
+    "yield": "90–120 ml caffè crema",
+    "ingredients": [
+      "Coffee, espresso-style dose"
+    ],
+    "method": [
+      "Warm a 120–150 ml cup.",
+      "Grind coarser than espresso so it can run longer without harshness.",
+      "Extract 90–120 ml into the cup. No water after.",
+      "Serve while the crema is still gold."
+    ],
+    "proTip": "A long pull, not an americano.",
+    "serve": "120–150 ml cup. Crema on top."
+  },
+  "americano-misto": {
+    "description": "Americano with a little steamed milk. Lighter than a latte, rounder than black.",
+    "yield": "30–35 ml espresso + water + 60 ml milk",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Hot filtered water, 120 ml",
+      "Whole milk, 60 ml"
+    ],
+    "method": [
+      "Hot water in a warm 200–220 ml cup.",
+      "Pull 30–35 ml espresso into the water.",
+      "Milk to 60–65°C, light texture, not a cap of foam.",
+      "A small pour on the americano. Stir once if you need to.",
+      "Serve hot."
+    ],
+    "proTip": "Keep the milk small. You are softening an americano, not building a latte.",
+    "serve": "200–220 ml cup. Hot, not reheated."
+  },
+  "guest-espresso": {
+    "description": "The house espresso service, with the guest lot in the basket. Origin and roast in a small cup.",
+    "yield": "30–35 ml espresso",
+    "ingredients": [
+      "Guest coffee, espresso dose"
+    ],
+    "method": [
+      "Warm a small cup.",
+      "Even puck. Pull 30–35 ml.",
+      "Serve at once, with one short note on the coffee.",
+      "One tasting cue. Not a lecture."
+    ],
+    "proTip": "Not a new build. The lot is the story.",
+    "serve": "50–70 ml demitasse. Water beside it if you like."
+  },
+  "drip-coffee": {
+    "description": "Automatic drip. Bright acidity, clear sweetness, a smooth body.",
+    "yield": "17 g coffee, 250 ml water",
+    "ingredients": [
+      "Coffee, 17 g",
+      "Water, 250 ml"
+    ],
+    "method": [
+      "Grind on demand to drip. Rinse, preheat, dose even, level the bed.",
+      "Start the brewer. The bed should wet evenly, not tunnel down one side.",
+      "Target 4:00–6:00. Too fast is thin; too slow is dry.",
+      "Time is a check. Taste, then change grind or dose.",
+      "Serve fresh. Do not hold past the house window."
+    ],
+    "proTip": "Automatic drip still needs dial-in; if the machine is fixed, grind and dose are your control points.",
+    "serve": "250–300 ml preheated mug; serve hot, offer refills only while the batch is in window."
+  },
+  "filter-coffee": {
+    "description": "Paper filter. A clean cup, bright acidity, a tea-like finish when grind and drawdown line up.",
+    "yield": "17 g coffee, 250 ml water",
+    "ingredients": [
+      "Coffee, 17 g",
+      "Water, 250 ml"
+    ],
+    "method": [
+      "Grind on demand to filter. Rinse, preheat, dose even, level the bed.",
+      "Bloom 30–45 seconds until the bed is wet.",
+      "Pour in pulses. Keep the bed level.",
+      "Target 2:45–4:00 for a 250–320 ml cup.",
+      "Serve at once, while the aroma is clean."
+    ],
+    "proTip": "Drawdown is a diagnostic, not a trophy: use it with taste to decide whether to grind finer, coarser or pour calmer.",
+    "serve": "250–300 ml into a warm cup; serve while the aromatics are fresh."
+  },
+  "batch-brew": {
+    "description": "Batch filter for volume. Same ratio, even extraction, a bright filter cup at café scale.",
+    "yield": "16 g coffee, 250 ml water",
+    "ingredients": [
+      "Coffee, 16 g",
+      "Water, 250 ml"
+    ],
+    "method": [
+      "Grind on demand to batch-filter. Rinse, preheat, dose even, level the bed.",
+      "Start the batch. The spray should wet the bed evenly in the first minute.",
+      "Target 4:00–6:00. Change grind before you change the ratio.",
+      "Serve within the house window. Discard coffee that tastes hollow or baked."
+    ],
+    "proTip": "Batch brew earns trust through repeatability: log dose, yield, grind, brew time and discard time every service.",
+    "serve": "250–300 ml preheated mug; serve hot within your posted batch window."
+  },
+  "pour-over-coffee": {
+    "description": "Manual filter. Clear aromatics, bright acidity, a light body when the pour is controlled.",
+    "yield": "22 g coffee, 220 ml water",
+    "ingredients": [
+      "Coffee, 22 g",
+      "Water, 220 ml"
+    ],
+    "method": [
+      "Grind on demand to pour-over. Rinse, preheat, dose even, level the bed.",
+      "Bloom 30–45 seconds.",
+      "Pour in calm pulses or a steady spiral. Keep the bed level.",
+      "Target 2:45–3:45 for a 250–320 ml cup.",
+      "Serve at once. Do not hold the brew."
+    ],
+    "proTip": "A premium pour-over should taste cleaner because it is controlled, not because it is slower for theatre.",
+    "serve": "250–320 ml carafe into a warm 200–260 ml cup; serve fresh."
+  },
+  "chemex": {
+    "description": "Chemex — exceptional clarity, floral highs, a clean sweet finish. Thicker paper, slower drawdown.",
+    "yield": "18 g coffee, 300 ml water",
+    "ingredients": [
+      "Coffee, 18 g",
+      "Water, 300 ml"
+    ],
+    "method": [
+      "Grind on demand to a medium-coarse Chemex grind. Preheat, dose even, level the bed.",
+      "Rinse the thick paper thoroughly.",
+      "Bloom 35–45 seconds. Pour in wide, calm spirals.",
+      "Target 4:00–5:30. Swirl the carafe.",
+      "Serve while the clarity is still high."
+    ],
+    "proTip": "Chemex is a clarity brewer; rushed pours or an under-rinsed filter make a premium coffee taste papery and flat.",
+    "serve": "300–320 ml carafe into a preheated 260 ml cup; first pour at the bar."
+  },
+  "aeropress": {
+    "description": "Immersion and a short press. Full body, low bitterness, a bright cup.",
+    "yield": "16 g coffee, 220 ml water",
+    "ingredients": [
+      "Coffee, 16 g",
+      "Water, 220 ml"
+    ],
+    "method": [
+      "Grind on demand to AeroPress. Rinse, preheat, dose even, level the bed.",
+      "Add water. Stir only to wet the grounds. Steep 1:30–2:30.",
+      "Press steadily 20–30 seconds. Do not force the plunger.",
+      "Serve at once. Bypass with water only if the house recipe is a longer cup."
+    ],
+    "proTip": "AeroPress is fast immersion: time controls sweetness, pressure controls texture; do not turn it into a forced espresso substitute.",
+    "serve": "250–280 ml into a warm cup; drink while aroma still rises from the surface."
+  },
+  "french-press": {
+    "description": "Full immersion. Heavy body, rustic texture, oils in the cup — not trapped in paper.",
+    "yield": "18 g coffee, 280 ml water",
+    "ingredients": [
+      "Coffee, 18 g",
+      "Water, 280 ml"
+    ],
+    "method": [
+      "Grind on demand to a coarse press grind. Rinse, preheat, dose even, level the bed.",
+      "Water on. Saturate the grounds. Steep 4:00.",
+      "Break the crust. Press slowly.",
+      "Decant at once. The pot is not a holding vessel."
+    ],
+    "proTip": "French press is not a holding vessel; the brew must leave the grounds when the extraction window is reached.",
+    "serve": "280–300 ml preheated mug; serve hot, not scorching."
+  },
+  "moka-pot": {
+    "description": "Stovetop pressure. Dense, espresso-like intensity without the machine. A small Italian cup.",
+    "yield": "17 g coffee, 170 ml water",
+    "ingredients": [
+      "Coffee, 17 g",
+      "Water, 170 ml"
+    ],
+    "method": [
+      "Grind on demand to moka. Hot water in the base, to the valve. Dose the basket even. Do not tamp.",
+      "Medium heat. The coffee should flow steadily, not spurt.",
+      "About 3:00–5:00 from heat-on. Off the heat before the bitter sputter.",
+      "Serve at once. Moka is pressure-assisted coffee, not espresso."
+    ],
+    "proTip": "Moka quality depends on stopping before the bitter sputter; the pot is pressure-assisted, not espresso.",
+    "serve": "150–180 ml warm cup; drink while steam still rises."
+  },
+  "flash-chilled-coffee": {
+    "description": "Hot filter, flash-chilled over ice. Japanese-style clarity, cold in the glass.",
+    "yield": "17 g coffee, 250 ml water, over ice",
+    "ingredients": [
+      "Coffee, 17 g",
+      "Water, 250 ml",
+      "Hard ice, 100 ml"
+    ],
+    "method": [
+      "Grind on demand to filter. Rinse, preheat, dose even, level the bed.",
+      "A planned hot-water-to-ice split. Brew the stronger hot filter directly over measured hard ice.",
+      "Target 2:45–3:45 hot drawdown. Swirl once so the ice melts and chills the brew.",
+      "Pour over fresh hard ice if needed. Serve at once."
+    ],
+    "proTip": "Flash-chilled coffee is the fast service alternative to cold brew: hot extraction, measured ice and immediate chill, not shaken espresso.",
+    "serve": "300–350 ml glass over full ice; serve cold, at once."
+  },
+  "iced-filter-coffee": {
+    "description": "Filter over ice. Bright, clean, refreshing — brew strong so dilution stays in control.",
+    "yield": "17 g coffee, 250 ml water, over ice",
+    "ingredients": [
+      "Coffee, 17 g",
+      "Water, 250 ml",
+      "Hard ice, 120 ml"
+    ],
+    "method": [
+      "Grind on demand to filter. Rinse, preheat, dose even, level the bed.",
+      "Brew a stronger hot filter directly over measured hard ice. Target 2:45–3:45.",
+      "Do not pour warm coffee over weak service ice.",
+      "Serve cold, over hard ice."
+    ],
+    "proTip": "Iced filter should be designed around dilution; warm brewed coffee over random ice is not a recipe.",
+    "serve": "300–350 ml glass over full ice; straw optional."
+  },
+  "cold-brew-coffee": {
+    "description": "A 12–18 hour cold steep. Low acid, round sweetness, cocoa and nut in the cup.",
+    "yield": "72 g coffee, 240 ml water",
+    "ingredients": [
+      "Coffee, 72 g",
+      "Water, 240 ml",
+      "Hard ice, 100 ml"
+    ],
+    "method": [
+      "Grind on demand, coarse. Coffee and cold water, fully wet. Cover. Steep cold 12–18 hours.",
+      "Filter clean. No grit in the glass.",
+      "A house rapid extraction is fine if it tastes against the long steep.",
+      "Dilute to drinking strength. Hard ice, or neat if they want it stronger."
+    ],
+    "proTip": "Fast cold brew is a production method, not a shortcut in standards: validate rapid extraction by taste, clarity, strength and filtration before selling it.",
+    "serve": "350–400 ml tall glass over full ice; straw optional."
+  },
+  "nitro-cold-brew": {
+    "description": "Cold brew with nitrogen. Cascading crema, a creamy mouthfeel, extra sweetness without milk.",
+    "yield": "72 g coffee, 240 ml water, nitro",
+    "ingredients": [
+      "Coffee, 72 g",
+      "Water, 240 ml",
+      "Hard ice, 100 ml"
+    ],
+    "method": [
+      "Grind on demand, coarse. Cold brew base: 12–18 hours, or a house rapid extraction tasted against the long steep.",
+      "Filter carefully. No fines in the keg.",
+      "Chill fully. Charge or pour through nitro until the cascade and head appear.",
+      "Serve cold. Ice only if the tap is not cold enough."
+    ],
+    "proTip": "Let the cascade settle, then serve in a tall glass so guests see the texture before the first sip.",
+    "serve": "350–400 ml tall glass; serve cold with the nitrogen head intact."
+  },
+  "cold-brew-tonic": {
+    "description": "Cold brew over tonic and ice. Bitter sparkle, low acid, a tall cup without espresso heat.",
+    "yield": "Cold brew + 150 ml tonic",
+    "ingredients": [
+      "Coffee, 72 g",
+      "Water, 240 ml",
+      "Tonic, 150 ml",
+      "Hard ice, 100 ml"
+    ],
+    "method": [
+      "A clean cold-brew base: 12–18 hours, or a house rapid extraction tasted against the long steep.",
+      "Hard ice. Chilled tonic first.",
+      "Cold brew slowly over the tonic.",
+      "Serve before the bubbles fade."
+    ],
+    "proTip": "Pick one tonic label for the house—changing brands changes bitterness more than a grind tick.",
+    "serve": "300–360 ml Collins over full ice; serve with a tall straw for one stir."
+  },
+  "barrel-aged-cold-brew": {
+    "description": "Cold brew from a named barrel-aged lot. Oak and spirit-barrel aroma — not woody bitterness.",
+    "yield": "72 g coffee, 240 ml water",
+    "ingredients": [
+      "Coffee, 72 g",
+      "Water, 240 ml",
+      "Hard ice, 100 ml"
+    ],
+    "method": [
+      "Verified barrel-aged beans. Grind on demand, coarse. Cold water, fully wet. Steep 12–18 hours.",
+      "Filter clean. Dilute to drinking strength.",
+      "A house rapid extraction is fine if it tastes against the long steep.",
+      "Hard ice, or neat. The value is aroma, not wood."
+    ],
+    "proTip": "Keep this recipe only as a seasonal premium item with a named barrel-aged lot or documented oak process; otherwise replace it with standard cold brew.",
+    "serve": "350–400 ml tall glass over full ice; straw optional."
+  },
+  "reserve-pour-over": {
+    "description": "Reserve single-origin pour-over. The lot, the time, and one tasting cue.",
+    "yield": "18 g coffee, 300 ml water",
+    "ingredients": [
+      "Coffee, 18 g",
+      "Water, 300 ml"
+    ],
+    "method": [
+      "Name the lot first: origin, process where you know it, roast rest, one tasting note.",
+      "Grind on demand to the dialled reserve grind. Rinse, preheat, dose even, level the bed.",
+      "Bloom 30–45 seconds. Calm, repeatable pulses. Keep the bed level.",
+      "Target 2:45–3:45 for a 300–320 ml cup.",
+      "Small carafe, warm cup, one cue. Do not hold it."
+    ],
+    "proTip": "Reserve pour-over only earns its menu space when the guest can taste and understand the lot: name it, dial it, time it and serve it immediately.",
+    "serve": "300–320 ml small carafe into a warm cup; serve with lot name, origin/process cue and expected tasting notes."
+  },
+  "espresso-macchiato": {
+    "description": "Espresso marked with a small spoon of foam. Coffee first. Not a mini cappuccino.",
+    "yield": "30–35 ml espresso, marked",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Steamed milk foam, 5 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml into a small warm cup.",
+      "While the shot runs, steam a little milk. You need the foam, not a pour.",
+      "1–2 spoons of glossy foam through the crema.",
+      "Do not fill it with liquid milk. Serve at once."
+    ],
+    "proTip": "Well-textured dairy or plant-based foam from a tested product should be fine, glossy and stable: microbubbles hold longer, look smoother and give a creamier mouthfeel than.",
+    "serve": "50–70 ml warm espresso cup; visible foam mark on the crema."
+  },
+  "cortado": {
+    "description": "Espresso cut with near-equal warm milk. Coffee-forward, short, smooth.",
+    "yield": "30–35 ml espresso + 50–70 ml milk",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 60 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "While the shot runs, steam milk to 60–65°C with only light microfoam.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour the milk into the coffee. Serve at once."
+    ],
+    "proTip": "Cortado means cut: the milk softens espresso without turning it into a piccolo or flat white.",
+    "serve": "120–150 ml warm glass or cup; serve immediately, at once."
+  },
+  "piccolo-latte": {
+    "description": "A mini latte. A short espresso base, 70–90 ml silky milk, in a small glass.",
+    "yield": "20–25 ml espresso + 70–90 ml milk",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 80 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull a short espresso, about 20–25 ml.",
+      "While the shot runs, steam milk to 60–65°C into glossy, pourable microfoam — not a dry cap.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour like a small latte. Serve at once, in a 90–110 ml glass."
+    ],
+    "proTip": "Piccolo is not just another word for cortado: use a shorter coffee base and more latte-like microfoam.",
+    "serve": "90–110 ml warm glass; serve immediately, at once."
+  },
+  "gibraltar": {
+    "description": "Cortado balance in a Gibraltar glass. Tight ratio, San Francisco bar classic.",
+    "yield": "30–35 ml espresso + 50–70 ml milk",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 60 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "While the shot runs, steam milk to 60–65°C with only light microfoam.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour the milk into the coffee. Serve at once."
+    ],
+    "proTip": "The glass is the service. In a larger cup, it is a cortado — call it that.",
+    "serve": "130–150 ml preheated Gibraltar glass; serve immediately, at once."
+  },
+  "flat-white": {
+    "description": "Tighter than a latte. A double espresso, 90–110 ml velvet microfoam, a 150–180 ml cup.",
+    "yield": "60–70 ml double espresso + 90–110 ml milk",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 100 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 60–70 ml — a double.",
+      "While the shot runs, steam milk to 60–65°C with very little air: glossy, pourable microfoam, not cappuccino foam.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour the milk into the coffee. Serve at once."
+    ],
+    "proTip": "A flat white fails when the milk becomes too airy; keep it tight and polished.",
+    "serve": "150–180 ml warm cup; serve immediately while the microfoam is glossy."
+  },
+  "cappuccino": {
+    "description": "Espresso, warm milk, dense microfoam. Aroma through the foam, sweetness in the milk.",
+    "yield": "30–35 ml espresso + milk and foam",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 120 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "While the shot runs, steam milk to 60–65°C into dense, glossy cappuccino foam. Keep a cap, not peaks.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour through the espresso. Finish with a clear foam cap. Do not stir. Serve at once."
+    ],
+    "proTip": "Foam that stands in peaks belongs on a pie, not in this cup—velvet cap, not meringue.",
+    "serve": "160–200 ml warm cup; guest should smell coffee through the foam on the first lift."
+  },
+  "latte": {
+    "description": "Espresso on steamed milk, a thin microfoam lid. Comfort in the cup.",
+    "yield": "30–35 ml espresso + 165 ml milk",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 165 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "While the shot runs, steam milk to 60–65°C into glossy, pourable microfoam — not a dry cap.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour the milk into the coffee. Serve at once."
+    ],
+    "proTip": "If the drink tastes sweet but empty, fix the espresso before you reach for syrup—the milk is already doing sweetness work.",
+    "serve": "280–320 ml cup or glass; hot through the last third."
+  },
+  "latte-macchiato": {
+    "description": "Steamed milk marked with espresso. Milk first. A stain on top.",
+    "yield": "30–35 ml espresso + 180 ml milk",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 180 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "While the shot runs, steam milk to 60–65°C into glossy, pourable microfoam — not a dry cap.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Milk in a tall glass first, a soft foam layer on top.",
+      "Pull 30–35 ml. Pour slowly through the milk so the mark stays.",
+      "Serve at once."
+    ],
+    "proTip": "Latte macchiato is milk marked with coffee, not the small foam-dolloped espresso macchiato.",
+    "serve": "280–320 ml glass; guest sees the mark before the first sip."
+  },
+  "mocha": {
+    "description": "Espresso and dark chocolate, folded through steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Dark chocolate, 12 g",
+      "Whole milk, 165 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Dark chocolate in the cup. Pour the shot over. Stir until glossy. No chocolate left on the bottom.",
+      "While the shot runs, steam milk to 60–65°C until glossy and creamy, not dry foam.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour the milk into the chocolate base. Serve at once."
+    ],
+    "proTip": "Real chocolate gives better body and finish than default powder.",
+    "serve": "280–320 ml warm cup; serve while the surface still shines."
+  },
+  "espresso-con-panna": {
+    "description": "Espresso crowned with softly whipped cream. Coffee-forward, barely sweet.",
+    "yield": "30–35 ml espresso, cream on top",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Cream, 30 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Lightly whip cold cream until it is soft and pourable, not stiff.",
+      "Float the cream over the back of a spoon.",
+      "Serve at once — hot coffee, cool cream."
+    ],
+    "proTip": "Soft cream is the point: stiff peaks block aroma, while softly whipped cream lets the espresso come through.",
+    "serve": "50–70 ml demitasse; hot espresso with a soft cool cream cap."
+  },
+  "breve-latte": {
+    "description": "Espresso with steamed half-and-half. Richer than a whole-milk latte.",
+    "yield": "30–35 ml espresso + 165 ml half-and-half",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Half-and-half (milk-and-cream dairy blend), 165 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Half-and-half to 60–65°C. Stretch less than milk — the cream thickens quickly.",
+      "Pour into the espresso. Serve at once."
+    ],
+    "proTip": "Half-and-half thickens quickly. Stretch less than milk, and keep 60–65°C.",
+    "serve": "280–320 ml warm cup; hot through the last third."
+  },
+  "cafe-au-lait": {
+    "description": "Filter coffee and scalded milk, about equal parts. A French breakfast cup — not espresso.",
+    "yield": "220 ml brew + 220 ml milk",
+    "ingredients": [
+      "Coffee, 22 g",
+      "Water, 220 ml",
+      "Whole milk, 220 ml"
+    ],
+    "method": [
+      "Grind on demand to filter. Rinse, preheat, dose even, level the bed.",
+      "Brew 220 ml fresh filter or batch coffee.",
+      "Milk to 60–65°C, light texture. Not cappuccino foam.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Coffee and milk in roughly equal parts, into a large warm cup. Serve hot."
+    ],
+    "proTip": "Scalded milk is the texture—if you steam to cappuccino foam, you are making something else.",
+    "serve": "400–450 ml preheated bowl or cup; equal coffee and milk by volume."
+  },
+  "galao": {
+    "description": "Portuguese tall glass. Espresso lengthened with foamed milk — more than a cortado, less than a latte.",
+    "yield": "30–35 ml espresso + 120 ml milk",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 120 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "While the shot runs, steam milk to 60–65°C with only light microfoam.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour the milk into the coffee. Serve at once."
+    ],
+    "proTip": "Galão sits between cortado and cappuccino—when in doubt, less milk than a latte, more foam than a flat white.",
+    "serve": "200–240 ml tall glass; hand warm with foam still holding shape."
+  },
+  "cafe-con-leche": {
+    "description": "Espresso folded through steamed milk. A Spanish morning cup, without latte volume.",
+    "yield": "30–35 ml espresso + 150 ml milk",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 150 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "While the shot runs, steam milk to 60–65°C into glossy, pourable microfoam — not a dry cap.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour the milk into the coffee. Serve at once."
+    ],
+    "proTip": "Café con leche is not a flavoured latte—let coffee and milk do the work without syrup.",
+    "serve": "200–240 ml warm cup; hot through the last sip."
+  },
+  "dirty-coffee": {
+    "description": "Cold milk base with hot fresh espresso poured on top.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 180 ml",
+      "Hard ice, 80 ml"
+    ],
+    "method": [
+      "Hard ice in a chilled glass.",
+      "Cold whole milk on the ice.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Pour the shot last, directly over the ice.",
+      "Serve at once."
+    ],
+    "proTip": "Temperature contrast is the recipe—warm milk kills the layer before the guest sees it.",
+    "serve": "280–320 ml glass; cold milk, hot espresso crown, no pass time."
+  },
+  "dry-cappuccino": {
+    "description": "A cappuccino with a lighter body and a more pronounced dry foam cap.",
+    "yield": "30–35 ml espresso + milk and dry foam",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 130 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "While the shot runs, steam milk to 60–65°C into fine, dry foam — structured, not coarse.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour through the espresso. Finish with the cap. Do not stir. Serve at once."
+    ],
+    "proTip": "Dry cappuccino is not a cup of foam.",
+    "serve": "160–200 ml cappuccino cup; pronounced foam cap with clear espresso aroma."
+  },
+  "oat-latte": {
+    "description": "A latte on barista oat milk. Creamy, lightly cereal-sweet, dairy-free.",
+    "yield": "30–35 ml espresso + 210 ml oat milk",
+    "ingredients": [
+      "Fresh espresso, 35 ml",
+      "Barista oat milk, 210 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Barista oat milk to 60–65°C, smooth and glossy. Less air than dairy.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour into the espresso. Serve at once."
+    ],
+    "proTip": "Oat milk rewards less air and slightly lower heat.",
+    "serve": "Serve in a 240–300 ml cup or glass; smooth, integrated and not overheated."
+  },
+  "spanish-latte": {
+    "description": "Espresso, condensed milk, steamed milk. Caramel-edged, still coffee-forward.",
+    "yield": "30–35 ml espresso + condensed milk + steamed milk",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Sweetened condensed milk, 20 ml",
+      "Whole milk, 150 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Condensed milk into the hot shot. Stir until even.",
+      "While the shot runs, steam milk to 60–65°C into glossy, pourable microfoam — not a dry cap.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour. Serve at once."
+    ],
+    "proTip": "Condensed milk is the sweetener—cut it before you add syrup or the cup turns candy.",
+    "serve": "280–320 ml warm cup; hot through the last third."
+  },
+  "affogato": {
+    "description": "Espresso poured over cold gelato. Instant cooling, bitter-sweet cream.",
+    "yield": "30–35 ml espresso over gelato",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Vanilla gelato, 80–160 g; one large scoop or two smaller scoops depending on glass size"
+    ],
+    "method": [
+      "Cold gelato in a chilled bowl or glass — one large scoop, or two smaller.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml. A strong moka will stand in.",
+      "Pour at once, from the spouts if you can, onto the gelato.",
+      "Spoon. Serve while the surface is just beginning to melt."
+    ],
+    "proTip": "Affogato improves when the hot espresso meets the frozen gelato instantly: faster cooling preserves more espresso aroma, keeps the gelato texture cleaner and creates a smoother.",
+    "serve": "Chilled 120–160 ml bowl or glass; one large scoop or two smaller scoops; spoon on the saucer, napkin ready."
+  },
+  "bicerin": {
+    "description": "Hot chocolate, espresso, softly whipped cream. Three layers. No steamed milk.",
+    "yield": "Chocolate, 30–35 ml espresso, cream",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Dark chocolate, 14 g",
+      "Cream, 40 ml"
+    ],
+    "method": [
+      "Melt the dark chocolate until smooth and pourable. Into the heatproof glass.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml. Pour over the back of a spoon, or down the glass, to keep a layer.",
+      "Soft, glossy cream — not stiff. Spoon on top.",
+      "Do not stir. Serve at once."
+    ],
+    "proTip": "Use real dark chocolate pieces/callets as the default base for Bicerin; prepare the chocolate base separately until smooth and glossy before layering espresso and the soft.",
+    "serve": "150–180 ml heatproof glass; three visible tones, Serve immediately."
+  },
+  "white-chocolate-mocha": {
+    "description": "White chocolate and espresso, folded through steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "White chocolate, 14 g",
+      "Whole milk, 165 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "White chocolate in the cup. A splash of hot milk if it needs loosening. Pour the shot over. Stir until glossy.",
+      "While the shot runs, steam milk to 60–65°C until glossy and creamy, not dry foam.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour the milk into the chocolate base. Serve at once."
+    ],
+    "proTip": "White chocolate is sweet and delicate: use a little hot milk only if needed to loosen it, then pour the full fresh espresso over it so the chocolate and coffee integrate cleanly.",
+    "serve": "280–320 ml warm cup; serve while the surface still shines."
+  },
+  "caramel-mocha": {
+    "description": "Espresso and dark chocolate, folded through steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Dark chocolate, 12 g",
+      "Caramel syrup (sweetened caramel syrup), 12 ml",
+      "Whole milk, 165 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Dark chocolate in the cup. Pour the shot over. Stir until glossy. Caramel syrup in. Stir before the milk.",
+      "While the shot runs, steam milk to 60–65°C until glossy and creamy, not dry foam.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour the milk into the chocolate base. Serve at once."
+    ],
+    "proTip": "Real chocolate gives better body and finish than default powder.",
+    "serve": "280–320 ml warm cup; hot through the last third."
+  },
+  "salted-caramel-mocha": {
+    "description": "Espresso and dark chocolate, folded through steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Dark chocolate, 12 g",
+      "Salted caramel syrup (sweetened caramel syrup with salt), 12 ml",
+      "Whole milk, 165 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Dark chocolate in the cup. Pour the shot over. Stir until glossy. Salted caramel syrup in. Taste before you add salt.",
+      "While the shot runs, steam milk to 60–65°C until glossy and creamy, not dry foam.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour the milk into the chocolate base. Serve at once."
+    ],
+    "proTip": "Real chocolate gives better body and finish than default powder.",
+    "serve": "280–320 ml warm cup; serve hot and fresh, never held until dull."
+  },
+  "dark-chocolate-mocha": {
+    "description": "Espresso and dark chocolate, folded through steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Dark chocolate, 18 g",
+      "Whole milk, 165 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Extra dark chocolate in the cup. Pour the shot over. Stir until glossy. Nothing left on the bottom.",
+      "While the shot runs, steam milk to 60–65°C until glossy and creamy, not dry foam.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour the milk into the chocolate base. Serve at once."
+    ],
+    "proTip": "Real chocolate gives better body and finish than default powder.",
+    "serve": "280–320 ml warm cup; serve while the surface still shines."
+  },
+  "gianduja-latte": {
+    "description": "Gianduja and espresso, folded through steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Gianduja paste, 15 g",
+      "Whole milk, 165 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Gianduja paste in a warm cup. Pour the shot over. Stir until smooth and glossy.",
+      "While the shot runs, steam milk to 60–65°C into glossy, pourable microfoam — not a dry cap.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour the milk into the chocolate base. Serve at once."
+    ],
+    "proTip": "If it tastes too sweet, use slightly less gianduja paste next time.",
+    "serve": "280–320 ml warm cup; hot through the last third."
+  },
+  "chocolate-cappuccino": {
+    "description": "Real dark chocolate pieces/callets and fresh espresso under dense cappuccino foam.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Dark chocolate, 10 g",
+      "Whole milk, 120 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Dark chocolate in the cup. Pour the shot over. Stir until glossy.",
+      "While the shot runs, steam milk to 60–65°C into dense, glossy cappuccino foam. Keep a cap, not peaks.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour through the chocolate base. Cap with foam. Do not stir. Serve at once."
+    ],
+    "proTip": "Real chocolate gives better body and finish than default powder.",
+    "serve": "160–200 ml warm cup; guest should smell coffee through foam on the first lift."
+  },
+  "hot-chocolate": {
+    "description": "Milk chocolate, whole milk, enough cocoa depth to feel crafted — not thin, not powdered.",
+    "yield": "28 g chocolate, 240 ml milk",
+    "ingredients": [
+      "Milk chocolate pieces/callets, 28 g",
+      "Whole milk, 240 ml"
+    ],
+    "method": [
+      "Chocolate in a pan. A small splash of milk. Warm, whisk, until a glossy paste.",
+      "The rest of the milk. Heat to 60–70°C. Whisk until smooth. Do not boil.",
+      "Taste before you add sugar.",
+      "Warm cup. Serve before a skin forms."
+    ],
+    "proTip": "Start with real chocolate and a small milk splash.",
+    "serve": "Serve in a 250–300 ml warm cup; add thin milk foam only when specified, never a heavy dry cap."
+  },
+  "marzipan-mocha": {
+    "description": "Espresso and dark chocolate, folded through steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Dark chocolate, 12 g",
+      "Almond syrup (sweetened almond syrup), 10 ml",
+      "Whole milk, 165 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Dark chocolate in the cup. Pour the shot over. Stir until glossy. Almond syrup in.",
+      "While the shot runs, steam milk to 60–65°C until glossy and creamy, not dry foam.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour the milk into the chocolate base. Serve at once."
+    ],
+    "proTip": "Real chocolate gives better body and finish than default powder.",
+    "serve": "280–320 ml warm cup; hot through the last third."
+  },
+  "tiramisu-coffee": {
+    "description": "Espresso, mascarpone-style cream, cocoa dust. Dessert cues — not a tiramisu slab.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Cream, 35 ml",
+      "Cocoa, for dusting, 8 g"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Lightly whip cold cream until soft and pourable.",
+      "Float the cream over the back of a spoon.",
+      "A light cocoa dust. Serve at once."
+    ],
+    "proTip": "Use cocoa as a light aromatic dusting only; the drink should read as coffee plus soft cream, not as a chocolate-base mocha.",
+    "serve": "140–160 ml demitasse or dessert cup; spoon on saucer, napkin folded small."
+  },
+  "viennese-coffee": {
+    "description": "Hot coffee or espresso, softly whipped cream, a light cocoa finish.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Cream, 45 ml",
+      "Cocoa, for dusting, 6 g"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml, or a fresh hot brew.",
+      "Lightly whip cold cream until soft and pourable.",
+      "Float the cream over the back of a spoon.",
+      "A light cocoa dust. Serve at once."
+    ],
+    "proTip": "Use cocoa as a light aromatic dusting only; too much makes the first sip dry and bitter.",
+    "serve": "150–180 ml warm handled cup; hot coffee base with a soft cream cap."
+  },
+  "orange-chocolate-mocha": {
+    "description": "Espresso and dark chocolate, folded through steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Dark chocolate, 14 g",
+      "Orange syrup (sweetened orange syrup), 6 ml",
+      "Whole milk, 165 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Dark chocolate in the cup. Pour the shot over. Stir until glossy. A restrained orange syrup. Chocolate leads.",
+      "While the shot runs, steam milk to 60–65°C until glossy and creamy, not dry foam.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour the milk into the chocolate base. Serve at once."
+    ],
+    "proTip": "Keep this version chocolate-led: if the orange tastes like soft drink, reduce syrup before changing the chocolate dose.",
+    "serve": "280–320 ml warm cup; hot through the last third."
+  },
+  "iced-americano": {
+    "description": "Fresh espresso lengthened with cold water over ice.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Water, 120 ml",
+      "Hard ice, 120 ml"
+    ],
+    "method": [
+      "Hard ice in a chilled glass.",
+      "Cold filtered water on the ice, room for the shot.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Pour the shot last, directly over the ice.",
+      "Serve at once."
+    ],
+    "proTip": "Build over cold water and hard ice; shaking turns an iced americano into a different drink.",
+    "serve": "280–320 ml glass over full ice; serve cold."
+  },
+  "iced-red-eye": {
+    "description": "Cold batch coffee crowned with fresh espresso over ice.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Chilled brewed coffee base, 150–180 ml",
+      "Coffee, espresso dose",
+      "Hard ice, 120 ml"
+    ],
+    "method": [
+      "Chill the brew first.",
+      "Hard ice. Cold filter or batch coffee in the glass.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml. Pour last, over the cold brew.",
+      "Serve at once."
+    ],
+    "proTip": "Keep the batch coffee cold and clean; the espresso should add lift, not hide stale brewed coffee.",
+    "serve": "320–360 ml glass over full ice; cold through the last sip."
+  },
+  "quad-on-ice": {
+    "description": "Four fresh espresso shots over ice.",
+    "yield": "60–70 ml fresh double espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Hard ice, 120 ml"
+    ],
+    "method": [
+      "Hard ice in a small chilled glass.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Four shots, about 120–140 ml in total. Each puck even.",
+      "Pour last, directly over the ice. Do not shake.",
+      "Serve at once."
+    ],
+    "proTip": "Use enough hard ice and serve fast; four shots over weak ice become harsh and diluted.",
+    "serve": "120–160 ml glass over ice; serve cold within seconds of the last pour."
+  },
+  "iced-cortado": {
+    "description": "Fresh espresso cut with cold milk over ice.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 60 ml",
+      "Hard ice, 100 ml"
+    ],
+    "method": [
+      "Hard ice in a chilled glass.",
+      "Cold whole milk on the ice — keep the ratio short.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Pour the shot last, directly over the ice.",
+      "Serve at once."
+    ],
+    "proTip": "Iced cortado is a ratio drink—too much milk and you are serving an iced latte in a small glass.",
+    "serve": "120–150 ml glass over ice; serve cold."
+  },
+  "iced-latte": {
+    "description": "Cold milk and a fresh espresso over ice.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 180 ml",
+      "Hard ice, 120 ml"
+    ],
+    "method": [
+      "Hard ice in a chilled glass.",
+      "Cold whole milk on the ice.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Pour the shot last, directly over the ice.",
+      "Serve at once."
+    ],
+    "proTip": "Ice dilution calls for a tighter fresh espresso — taste beats the clock if the cup is clean.",
+    "serve": "280–320 ml glass over full ice; serve cold, at once."
+  },
+  "iced-flat-white": {
+    "description": "Two fresh espressos over cold milk and ice.",
+    "yield": "60–70 ml fresh double espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 140 ml",
+      "Hard ice, 120 ml"
+    ],
+    "method": [
+      "Hard ice in a chilled glass. Cold whole milk on the ice.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Two shots, 30–35 ml each.",
+      "Pour last, directly over the ice.",
+      "Serve at once."
+    ],
+    "proTip": "Two shots on ice need a sweet dial-in—dilution punishes dull espresso faster than hot milk does.",
+    "serve": "200–240 ml glass over ice; cold through the last sip."
+  },
+  "iced-mocha": {
+    "description": "Real dark chocolate pieces/callets and fresh espresso cooled with cold milk over ice.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Dark chocolate, 12 g",
+      "Whole milk, 180 ml",
+      "Hard ice, 120 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Dark chocolate in the cup. Pour the shot over. Stir until glossy. Cool briefly.",
+      "Hard ice. Cold milk. Stir until even.",
+      "Serve cold."
+    ],
+    "proTip": "Real chocolate gives better body and finish than default powder.",
+    "serve": "280–320 ml glass over full ice; serve cold."
+  },
+  "shakerato": {
+    "description": "Espresso shaken on ice with a touch of sugar.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Sugar, 8 g",
+      "Hard ice, 120 ml"
+    ],
+    "method": [
+      "Chill a small glass. Sugar in the shaker.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml. Into the shaker while it is fresh.",
+      "Hard ice. Shake hard 10–15 seconds.",
+      "Strain, no ice in the glass. Serve at once."
+    ],
+    "proTip": "Too little ice makes a thin drink; too much ice and a long shake strip the aromatics—use one full scoop, one hard shake.",
+    "serve": "Chilled 120–150 ml stem or small coupe; foam should hold a spoon for a moment."
+  },
+  "freddo-espresso": {
+    "description": "A Greek-style iced espresso shaken cold until it has a light coffee foam and a clean, strong finish..",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Hard ice, 120 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Hard ice in a shaker. Shake hard 10–15 seconds until cold and lightly foamy.",
+      "Strain into a chilled glass with fresh ice.",
+      "Serve while the foam still sits."
+    ],
+    "proTip": "Use fresh hard ice for the shake, then fresh ice in the glass so the drink stays strong instead of watery.",
+    "serve": "120–150 ml chilled glass; foam should hold a line on the rim."
+  },
+  "freddo-cappuccino": {
+    "description": "A Greek-style iced espresso topped with a light cold milk foam cap. The coffee stays chilled and visible underneath..",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 100 ml",
+      "Hard ice, 100 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml. Shake or stir with hard ice until cold. Into a chilled glass with fresh ice.",
+      "Cold milk, frothed separately, until light glossy cold foam.",
+      "Spoon the foam on top. The coffee stays visible.",
+      "Do not stir unless they want it mixed. Serve at once."
+    ],
+    "proTip": "Cold foam is the signature.",
+    "serve": "200–240 ml glass over ice; cold foam cap, coffee base visible below."
+  },
+  "cold-foam-cappuccino": {
+    "description": "Iced espresso finished with a separate cold milk foam cap.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 120 ml",
+      "Hard ice, 80 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml. Shake or stir with hard ice until cold. Into a chilled glass with fresh ice.",
+      "Cold milk, frothed separately, until light glossy cold foam.",
+      "Spoon the foam on top. The coffee stays visible.",
+      "Do not stir unless they want it mixed. Serve at once."
+    ],
+    "proTip": "Cold foam is the signature.",
+    "serve": "160–200 ml glass or cup; foam cap firm, coffee base aromatic."
+  },
+  "blended-coffee-frappe": {
+    "description": "Fresh espresso blended with milk and ice.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 120 ml",
+      "Hard ice, 150 ml",
+      "Sugar, 10 g"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml. Cool briefly.",
+      "Espresso, cold milk, sugar, hard ice in the blender.",
+      "Blend until cold, foamy and pourable. Stop before it turns watery.",
+      "Chilled glass. Serve at once."
+    ],
+    "proTip": "Ice is the body—too little ice makes a thin shake, too much and coffee flavour washes out.",
+    "serve": "350–400 ml chilled glass; thick enough to hold a straw upright for a moment."
+  },
+  "frappe-coffee": {
+    "description": "Shaken or blended iced coffee with foam.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 60 ml",
+      "Hard ice, 150 ml",
+      "Sugar, 8 g"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml. Cool briefly.",
+      "Espresso, a little cold milk, sugar, hard ice. Shake or blend until foamy.",
+      "Tall glass. Serve before the foam collapses."
+    ],
+    "proTip": "Vigorous shake beats gentle stir—frappé foam is the texture, not a garnish.",
+    "serve": "300–350 ml tall glass; foam cap high, drink cold throughout."
+  },
+  "granita": {
+    "description": "Frozen coffee, scraped to crystals. Cold, sweet-edged, between dessert and iced coffee.",
+    "yield": "Strong brew, 40 g sugar, frozen and scraped",
+    "ingredients": [
+      "Coffee, 36 g",
+      "Water, 200 ml",
+      "Sugar, 40 g"
+    ],
+    "method": [
+      "Grind on demand to filter. Rinse, preheat, dose even, level the bed.",
+      "A strong brew. Dissolve the sugar while it is hot.",
+      "Shallow tray. Freeze. Scrape with a fork every 30–45 minutes.",
+      "Serve when it is loose, icy, spoonable."
+    ],
+    "proTip": "Use a shallow tray and scrape regularly; one solid frozen block gives coarse ice, not granita.",
+    "serve": "150–200 ml chilled bowl or glass; spoon on the side."
+  },
+  "espresso-tonic": {
+    "description": "Tonic’s bitterness and fine bubbles lift fresh espresso oils.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Tonic, 200 ml",
+      "Coffee, espresso dose",
+      "Hard ice, 100 ml"
+    ],
+    "method": [
+      "Chill the glass. Hard ice.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml. Cool briefly over ice so it does not flatten the bubbles.",
+      "Tonic in the glass.",
+      "Sparkling mixer down the ice, slowly.",
+      "Coffee last, gently over the top. Stir once only if you need to. Serve while it sparkles."
+    ],
+    "proTip": "Never shake tonic and espresso together; you lose both bubbles and aroma.",
+    "serve": "300–360 ml Collins; serve with a tall straw so guests can stir once before the last sip."
+  },
+  "espresso-lemonade": {
+    "description": "Fresh lemonade and fresh espresso over ice.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Lemonade, 180 ml",
+      "Hard ice, 120 ml"
+    ],
+    "method": [
+      "Chill the glass. Hard ice.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml. Cool briefly over ice so it does not flatten the bubbles.",
+      "Lemonade in the glass.",
+      "Sparkling mixer down the ice, slowly.",
+      "Coffee last, gently over the top. Stir once only if you need to. Serve while it sparkles."
+    ],
+    "proTip": "Sweet lemonade plus espresso both carry acid—taste the lemonade neat before you blame the shot for sharpness.",
+    "serve": "300–350 ml Collins over full ice; serve cold with a tall straw."
+  },
+  "espresso-cola": {
+    "description": "Cola and fresh espresso over ice.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Cola, 200 ml",
+      "Hard ice, 120 ml"
+    ],
+    "method": [
+      "Chill the glass. Hard ice.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml. Cool briefly over ice so it does not flatten the bubbles.",
+      "Cola in the glass.",
+      "Sparkling mixer down the ice, slowly.",
+      "Coffee last, gently over the top. Stir once only if you need to. Serve while it sparkles."
+    ],
+    "proTip": "Espresso last, cola cold—warm cola reads flat and makes the shot taste ashy.",
+    "serve": "300–350 ml highball over full ice; straw on the side."
+  },
+  "yuzu-espresso-tonic": {
+    "description": "Yuzu, tonic, and fresh espresso over ice.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Tonic, 160 ml",
+      "Yuzu syrup (sweetened yuzu citrus syrup), 10 ml",
+      "Hard ice, 120 ml"
+    ],
+    "method": [
+      "Chill the glass. Hard ice.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml. Cool briefly over ice so it does not flatten the bubbles.",
+      "Yuzu syrup in first. Then tonic.",
+      "Sparkling mixer down the ice, slowly.",
+      "Coffee last, gently over the top. Stir once only if you need to. Serve while it sparkles."
+    ],
+    "proTip": "Yuzu is perfume, not volume—cut syrup before you dilute the coffee further.",
+    "serve": "300–360 ml Collins over full ice; serve with a tall straw for one stir."
+  },
+  "espresso-mojito": {
+    "description": "Mint, lime, soda, and fresh espresso over ice.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Soda water, 120 ml",
+      "Lime juice, 20 ml",
+      "Mint leaves, 8 g",
+      "Sugar syrup, 10 ml",
+      "Hard ice, 120 ml"
+    ],
+    "method": [
+      "Chill the glass. Hard ice.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml. Cool briefly over ice so it does not flatten the bubbles.",
+      "Mint, lime and sugar syrup in first. Then soda.",
+      "Sparkling mixer down the ice, slowly.",
+      "Coffee last, gently over the top. Stir once only if you need to. Serve while it sparkles."
+    ],
+    "proTip": "Mint and espresso both bring bitter—pull a sweet shot or the cup turns one-note sharp.",
+    "serve": "300–350 ml highball over full ice; straw for one stir at the table."
+  },
+  "brown-sugar-shaken-espresso": {
+    "description": "Fresh espresso shaken with brown sugar syrup and ice.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Brown sugar syrup (dissolved brown sugar syrup), 15 ml",
+      "Hard ice, 120 ml"
+    ],
+    "method": [
+      "Brown sugar syrup in the shaker.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml onto the syrup while it is hot, so the sugar dissolves.",
+      "Hard ice. Shake hard 10–15 seconds.",
+      "Chilled glass, fresh ice. Serve while the foam holds a line."
+    ],
+    "proTip": "Brown sugar must dissolve in the hot espresso before the shake; otherwise the last sip tastes sweet and gritty.",
+    "serve": "200–250 ml chilled glass; foam should hold a line on the rim."
+  },
+  "orange-coffee-spritz": {
+    "description": "Cold brew, orange, and soda in a coffee spritz.",
+    "yield": "Coffee, 36 g · Water, 120 ml · Soda water, 120 ml",
+    "ingredients": [
+      "Coffee, 36 g",
+      "Water, 120 ml",
+      "Soda water, 120 ml",
+      "Orange syrup (sweetened orange syrup), 8 ml",
+      "Hard ice, 100 ml"
+    ],
+    "method": [
+      "Chill the glass. Hard ice.",
+      "Prepared cold brew, fully chilled.",
+      "Orange syrup in first.",
+      "Soda down the ice, slowly.",
+      "Cold brew last, gently. Serve while it sparkles."
+    ],
+    "proTip": "Orange should lift the cold coffee like peel oil, not turn it into soft drink; keep syrup modest, use hard ice and pour the coffee gently so the top still smells like coffee.",
+    "serve": "280–320 ml stem or highball; cold stem keeps spritz honest in the hand."
+  },
+  "coconut-cold-brew": {
+    "description": "Cold brew with coconut over ice.",
+    "yield": "Coffee, 72 g · Water, 240 ml · Coconut milk (drinkable chilled coconut milk, not canned cooking cream unless specified), 60 ml",
+    "ingredients": [
+      "Coffee, 72 g",
+      "Water, 240 ml",
+      "Coconut milk (drinkable chilled coconut milk, not canned cooking cream unless specified), 60 ml",
+      "Hard ice, 100 ml"
+    ],
+    "method": [
+      "Cold brew base: coarse grind, 12–18 hours, or a house rapid extraction tasted against the long steep.",
+      "Filter, chill, dilute to drinking strength.",
+      "Hard ice. Chilled coconut milk. Coffee still leads.",
+      "Serve before the ice softens or the coconut separates."
+    ],
+    "proTip": "Carton coconut varies in sweetness batch to batch—taste every new case before you line it up for rush.",
+    "serve": "350–400 ml tall glass over full ice; straw optional."
+  },
+  "sparkling-cascara": {
+    "description": "Cascara tea and soda over ice.",
+    "yield": "Cascara (dried coffee cherry husk for tea/infusion), 12 g · Water, 200 ml · Soda water, 100 ml",
+    "ingredients": [
+      "Cascara (dried coffee cherry husk for tea/infusion), 12 g",
+      "Water, 200 ml",
+      "Soda water, 100 ml",
+      "Hard ice, 100 ml"
+    ],
+    "method": [
+      "Steep cascara in hot water. Chill the infusion fully.",
+      "Hard ice in a chilled glass.",
+      "Soda down the ice, slowly.",
+      "Serve while it sparkles."
+    ],
+    "proTip": "Cascara punishes over-steep—woody tea reads like bark; cut time before you add sugar.",
+    "serve": "280–320 ml stem or highball over ice; serve cold."
+  },
+  "cascara-spritz": {
+    "description": "Cascara, citrus, and sparkling water in an aperitivo spritz.",
+    "yield": "Cascara (dried coffee cherry husk for tea/infusion), 12 g · Water, 160 ml · Soda water, 120 ml",
+    "ingredients": [
+      "Cascara (dried coffee cherry husk for tea/infusion), 12 g",
+      "Water, 160 ml",
+      "Soda water, 120 ml",
+      "Orange syrup (sweetened orange syrup), 8 ml",
+      "Hard ice, 100 ml"
+    ],
+    "method": [
+      "Steep cascara in hot water. Chill the infusion fully.",
+      "Hard ice. Orange syrup in first.",
+      "Soda down the ice, slowly.",
+      "Serve while it sparkles."
+    ],
+    "proTip": "Orange lifts cascara—when the first sip is only sweet, cut syrup before you weaken the tea.",
+    "serve": "280–320 ml stem or highball; cold stem keeps spritz honest in the hand."
+  },
+  "blackberry-coffee-soda": {
+    "description": "Cold coffee, soda and blackberry over ice.",
+    "yield": "Coffee, 36 g · Water, 120 ml · Soda water, 120 ml",
+    "ingredients": [
+      "Coffee, 36 g",
+      "Water, 120 ml",
+      "Soda water, 120 ml",
+      "Blackberry syrup (sweetened blackberry syrup), 10 ml",
+      "Hard ice, 100 ml"
+    ],
+    "method": [
+      "Prepared cold brew, fully chilled.",
+      "Hard ice. Blackberry syrup in first.",
+      "Soda down the ice, slowly.",
+      "Cold brew last, gently. Serve while it sparkles."
+    ],
+    "proTip": "Blackberry syrup reads sticky fast once carbonation opens the aroma; keep the cold coffee clean, add soda gently and cut syrup before adding more coffee if the first sip turns.",
+    "serve": "280–320 ml stem or highball; cold stem keeps spritz honest in the hand."
+  },
+  "caffe-corretto": {
+    "description": "Espresso corrected with grappa. Italian after-dinner. Hot coffee, spirit in the cup.",
+    "yield": "30–35 ml espresso + 30 ml grappa",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Grappa, 30 ml"
+    ],
+    "method": [
+      "Warm the demitasse, then empty it.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Grappa in the warm cup.",
+      "Pull 30–35 ml into the spirit.",
+      "Serve at once."
+    ],
+    "proTip": "Grappa quality shows in three sips—cheap spirit makes even good espresso taste harsh.",
+    "serve": "50–70 ml warm demitasse plus 30 ml grappa; serve immediately."
+  },
+  "carajillo": {
+    "description": "Hot fresh espresso with warm brandy.",
+    "yield": "Coffee, espresso dose · Brandy, 30 ml",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Brandy, 30 ml"
+    ],
+    "method": [
+      "Warm a heatproof glass, then empty it.",
+      "Brandy in.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml into the spirit.",
+      "Serve at once."
+    ],
+    "proTip": "Warm brandy, hot espresso, immediate handoff—delay turns aroma flat.",
+    "serve": "80–100 ml heatproof glass; hot enough to steam gently."
+  },
+  "irish-coffee": {
+    "description": "Hot coffee, Irish whiskey, and floated cream.",
+    "yield": "Hot coffee, spirit, floated cream",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Water, 150 ml",
+      "Irish whiskey, 40 ml",
+      "Sugar, 9 g",
+      "Cream, 45 ml"
+    ],
+    "method": [
+      "Warm the glass, then empty it.",
+      "Irish whiskey in.",
+      "Sugar in. A splash of hot coffee. Stir until smooth.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml, or a fresh hot brew. Pour into the glass.",
+      "Softly whipped cream, floated. Do not stir it in. Serve at once."
+    ],
+    "proTip": "Float the cream softly; the guest should drink through it, not stir it in.",
+    "serve": "240 ml handled glass; hot enough to steam gently, never lukewarm."
+  },
+  "gaelic-coffee": {
+    "description": "Hot coffee, Scotch whisky, and floated cream.",
+    "yield": "Hot coffee, spirit, floated cream",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Water, 150 ml",
+      "Scotch whisky, 40 ml",
+      "Sugar, 9 g",
+      "Cream, 45 ml"
+    ],
+    "method": [
+      "Warm the glass, then empty it.",
+      "Scotch whisky in.",
+      "Sugar in. A splash of hot coffee. Stir until smooth.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml, or a fresh hot brew. Pour into the glass.",
+      "Softly whipped cream, floated. Do not stir it in. Serve at once."
+    ],
+    "proTip": "Float the cream softly; the guest should drink through it, not stir it in.",
+    "serve": "240 ml handled glass; hot enough to steam gently, never lukewarm."
+  },
+  "kentucky-coffee": {
+    "description": "Hot coffee, bourbon, brown sugar, and floated cream.",
+    "yield": "Hot coffee, spirit, floated cream",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Water, 150 ml",
+      "Bourbon, 40 ml",
+      "Brown sugar, 9 g",
+      "Cream, 45 ml"
+    ],
+    "method": [
+      "Warm the glass, then empty it.",
+      "Bourbon in. Brown sugar, not white.",
+      "Sugar in. A splash of hot coffee. Stir until smooth.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml, or a fresh hot brew. Pour into the glass.",
+      "Softly whipped cream, floated. Do not stir it in. Serve at once."
+    ],
+    "proTip": "Brown sugar reads rounder than white here—dissolve fully before bourbon goes in.",
+    "serve": "240 ml handled glass; hot enough to steam gently, never lukewarm."
+  },
+  "jamaican-coffee": {
+    "description": "Hot coffee, dark rum, and floated cream.",
+    "yield": "Hot coffee, spirit, floated cream",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Water, 150 ml",
+      "Dark rum, 40 ml",
+      "Sugar, 9 g",
+      "Cream, 45 ml"
+    ],
+    "method": [
+      "Warm the glass, then empty it.",
+      "Dark rum in.",
+      "Sugar in. A splash of hot coffee. Stir until smooth.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml, or a fresh hot brew. Pour into the glass.",
+      "Softly whipped cream, floated. Do not stir it in. Serve at once."
+    ],
+    "proTip": "Dark rum wants a sweet, clean shot—harsh espresso and rum fight instead of marry.",
+    "serve": "240 ml handled glass; hot enough to steam gently, never lukewarm."
+  },
+  "calypso-coffee": {
+    "description": "Hot coffee, white rum, coconut liqueur, and floated cream.",
+    "yield": "Hot coffee, spirit, floated cream",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Water, 150 ml",
+      "White rum, 35 ml",
+      "Coconut liqueur (sweet coconut-flavoured liqueur), 15 ml",
+      "Sugar, 9 g",
+      "Cream, 45 ml"
+    ],
+    "method": [
+      "Warm the glass, then empty it.",
+      "White rum and coconut liqueur in.",
+      "Sugar in. A splash of hot coffee. Stir until smooth.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml, or a fresh hot brew. Pour into the glass.",
+      "Softly whipped cream, floated. Do not stir it in. Serve at once."
+    ],
+    "proTip": "Coconut liqueur punishes heavy hands—taste before you line up a double.",
+    "serve": "240 ml handled glass; hot enough to steam gently, never lukewarm."
+  },
+  "mexican-coffee": {
+    "description": "Hot coffee, tequila, coffee liqueur, and floated cream.",
+    "yield": "Hot coffee, spirit, floated cream",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Water, 150 ml",
+      "Tequila, 30 ml",
+      "Coffee liqueur, 15 ml",
+      "Sugar, 9 g",
+      "Cream, 45 ml"
+    ],
+    "method": [
+      "Warm the glass, then empty it.",
+      "Tequila and coffee liqueur in.",
+      "Sugar in. A splash of hot coffee. Stir until smooth.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml, or a fresh hot brew. Pour into the glass.",
+      "Softly whipped cream, floated. Do not stir it in. Serve at once."
+    ],
+    "proTip": "Coffee liqueur adds sweetness—dissolve sugar first and taste before a second spoon.",
+    "serve": "240 ml handled glass; hot enough to steam gently, never lukewarm."
+  },
+  "spanish-coffee": {
+    "description": "Hot coffee, dark rum, coffee liqueur, triple sec, and floated cream.",
+    "yield": "Hot coffee, spirit, floated cream",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Water, 150 ml",
+      "Dark rum, 30 ml",
+      "Coffee liqueur, 15 ml",
+      "Triple sec, 10 ml",
+      "Sugar, 9 g",
+      "Cream, 45 ml"
+    ],
+    "method": [
+      "Warm the glass, then empty it.",
+      "Dark rum, coffee liqueur and triple sec in.",
+      "Sugar in. A splash of hot coffee. Stir until smooth.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml, or a fresh hot brew. Pour into the glass.",
+      "Softly whipped cream, floated. Do not stir it in. Serve at once."
+    ],
+    "proTip": "Flaming is theatre, not flavour—if safety says no flame, the unflamed build still tastes right.",
+    "serve": "240 ml handled glass; hot enough to steam gently, never lukewarm."
+  },
+  "pharisaer": {
+    "description": "German coffee with rum under a floated cream cap.",
+    "yield": "Hot coffee, spirit, floated cream",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Water, 150 ml",
+      "Dark rum, 40 ml",
+      "Sugar, 9 g",
+      "Cream, 45 ml"
+    ],
+    "method": [
+      "Warm the glass, then empty it.",
+      "Dark rum in.",
+      "Sugar in. A splash of hot coffee. Stir until smooth.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml, or a fresh hot brew. Pour into the glass.",
+      "Softly whipped cream, floated. Do not stir it in. Serve at once."
+    ],
+    "proTip": "The cream cap is the ritual—stirring defeats the drink’s story and balance.",
+    "serve": "240 ml handled glass; hot coffee, cool cream, rum underneath."
+  },
+  "espresso-martini": {
+    "description": "Vodka, coffee liqueur, and fresh espresso shaken hard.",
+    "yield": "Fresh espresso, shaken cold",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Vodka, 45 ml",
+      "Coffee liqueur, 15 ml",
+      "Hard ice, 120 ml"
+    ],
+    "method": [
+      "Chill the glass. Hard ice in the shaker.",
+      "Vodka and coffee liqueur in the shaker.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml. Add it last, while it is still aromatic.",
+      "Shake hard 10–15 seconds. Fine-strain.",
+      "Serve at once."
+    ],
+    "proTip": "The foam lives or dies in the first thirty seconds after the pull—espresso last, shake next, strain immediately.",
+    "serve": "Chilled 130–150 ml coupe; foam should hold a line on the rim."
+  },
+  "creme-brulee-espresso-martini": {
+    "description": "Espresso martini with vanilla and torched sugar cues.",
+    "yield": "Fresh espresso, shaken cold",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Vodka, 45 ml",
+      "Coffee liqueur, 15 ml",
+      "Vanilla syrup (sweetened vanilla syrup), 15 ml",
+      "Hard ice, 120 ml"
+    ],
+    "method": [
+      "Chill the glass. Hard ice in the shaker.",
+      "Vodka, coffee liqueur and vanilla syrup in the shaker.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml. Add it last, while it is still aromatic.",
+      "Shake hard 10–15 seconds. Fine-strain.",
+      "Serve at once."
+    ],
+    "proTip": "Vanilla is the brûlée cue—too much syrup and you lose coffee snap.",
+    "serve": "Chilled 130–150 ml coupe; foam should hold a line on the rim."
+  },
+  "flat-white-martini": {
+    "description": "A softer espresso martini variation with creamier texture and clear coffee depth..",
+    "yield": "Fresh espresso, shaken cold",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Vodka, 40 ml",
+      "Coffee liqueur, 15 ml",
+      "Milk, 30 ml",
+      "Hard ice, 120 ml"
+    ],
+    "method": [
+      "Chill the glass. Hard ice in the shaker.",
+      "Vodka, coffee liqueur and a little milk in the shaker.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml. Add it last, while it is still aromatic.",
+      "Shake hard 10–15 seconds. Fine-strain.",
+      "Serve at once."
+    ],
+    "proTip": "A little milk rounds the edges—too much and you lose the martini snap.",
+    "serve": "Chilled 130–150 ml coupe; soft foam, clear coffee finish."
+  },
+  "coffee-old-fashioned": {
+    "description": "Bourbon stirred with coffee bitters and fresh espresso.",
+    "yield": "Coffee, espresso dose · Bourbon, 50 ml · Sugar syrup, 5 ml",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Bourbon, 50 ml",
+      "Sugar syrup, 5 ml",
+      "Coffee bitters, 2 ml",
+      "Hard ice, 80 ml"
+    ],
+    "method": [
+      "One large hard cube in a rocks glass.",
+      "Bourbon, sugar syrup and coffee bitters in a mixing glass, on ice.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml. Cool briefly. Add to the mixing glass.",
+      "Stir until cold. Strain over the cube. Serve at once."
+    ],
+    "proTip": "Coffee bitters plus fresh espresso can double bitter—pull sweet and cut syrup before you chase more coffee.",
+    "serve": "200 ml rocks glass on a large cube; cold, spirit-forward, clean finish."
+  },
+  "cold-brew-negroni": {
+    "description": "Gin, Campari, sweet vermouth, and cold brew.",
+    "yield": "Coffee, 36 g · Water, 120 ml · Gin, 25 ml",
+    "ingredients": [
+      "Coffee, 36 g",
+      "Water, 120 ml",
+      "Gin, 25 ml",
+      "Campari, 25 ml",
+      "Sweet vermouth, 25 ml",
+      "Hard ice, 80 ml"
+    ],
+    "method": [
+      "Hard ice in a mixing glass.",
+      "Gin, Campari, sweet vermouth.",
+      "Cold brew last.",
+      "Stir until cold. Strain. Serve at once."
+    ],
+    "proTip": "Cold brew replaces espresso here—stale concentrate reads woody against Campari, not bold.",
+    "serve": "200 ml rocks glass; cold enough to bite the lip, not so wet the ice is half melt."
+  },
+  "coffee-manhattan": {
+    "description": "Rye or bourbon with sweet vermouth and fresh espresso.",
+    "yield": "Coffee, espresso dose · Rye whiskey, 50 ml · Sweet vermouth, 25 ml",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Rye whiskey, 50 ml",
+      "Sweet vermouth, 25 ml",
+      "Coffee bitters, 2 ml",
+      "Hard ice, 80 ml"
+    ],
+    "method": [
+      "Hard ice in a mixing glass.",
+      "Rye or bourbon, sweet vermouth, coffee bitters.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml. Cool briefly. Add. Stir until cold.",
+      "Strain. Serve at once."
+    ],
+    "proTip": "Espresso last—stale coffee reads flat against vermouth, not complex.",
+    "serve": "Chilled 150–180 ml coupe or 200 ml rocks; stirred, not shaken."
+  },
+  "coffee-boulevardier": {
+    "description": "Bourbon, Campari, sweet vermouth, and fresh espresso.",
+    "yield": "Coffee, espresso dose · Bourbon, 40 ml · Campari, 25 ml",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Bourbon, 40 ml",
+      "Campari, 25 ml",
+      "Sweet vermouth, 25 ml",
+      "Hard ice, 80 ml"
+    ],
+    "method": [
+      "Hard ice in a mixing glass.",
+      "Bourbon, Campari, sweet vermouth.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml last. Stir until cold. Strain over a large cube.",
+      "Serve at once."
+    ],
+    "proTip": "Campari and espresso both bring bitter—pull a sweet shot or the cup turns one-note.",
+    "serve": "200 ml rocks glass on a large cube; cold, integrated, clean finish."
+  },
+  "revolver": {
+    "description": "Bourbon, coffee liqueur, orange bitters, and fresh espresso.",
+    "yield": "Coffee, espresso dose · Bourbon, 50 ml · Coffee liqueur, 15 ml",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Bourbon, 50 ml",
+      "Coffee liqueur, 15 ml",
+      "Orange bitters, 2 ml",
+      "Hard ice, 80 ml"
+    ],
+    "method": [
+      "Hard ice in a mixing glass.",
+      "Bourbon, coffee liqueur, orange bitters.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml. Cool briefly. Stir until cold. Strain.",
+      "Serve at once."
+    ],
+    "proTip": "Orange bitters lift coffee liqueur—stale espresso flattens both.",
+    "serve": "Chilled 130–150 ml coupe; cold, aromatic, spirit-forward."
+  },
+  "white-russian": {
+    "description": "Vodka, coffee liqueur, fresh espresso, and floated cream over ice.",
+    "yield": "Coffee, espresso dose · Vodka, 40 ml · Coffee liqueur, 20 ml",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Vodka, 40 ml",
+      "Coffee liqueur, 20 ml",
+      "Cream, 30 ml",
+      "Hard ice, 100 ml"
+    ],
+    "method": [
+      "Hard ice in a chilled rocks glass.",
+      "Vodka and coffee liqueur over the ice.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml. Cool briefly. Add.",
+      "Cream slowly over the ice. A short stir until marbled. Serve cold."
+    ],
+    "proTip": "Fresh espresso lifts the drink past candy—stale shots taste only of liqueur.",
+    "serve": "200 ml rocks glass over ice; cream cap, cold throughout."
+  },
+  "black-russian": {
+    "description": "Vodka and coffee liqueur over ice. No cream. Spirit-forward and cold.",
+    "yield": "50 ml vodka + 25 ml coffee liqueur",
+    "ingredients": [
+      "Vodka, 50 ml",
+      "Coffee liqueur, 25 ml",
+      "Hard ice, 100 ml"
+    ],
+    "method": [
+      "Hard ice in a rocks glass.",
+      "Vodka and coffee liqueur over the ice.",
+      "Stir briefly until cold. Do not shake.",
+      "Serve at once."
+    ],
+    "proTip": "Stir, do not shake—black russian is clarity, not foam.",
+    "serve": "200 ml rocks glass over ice; cold, clean, two-tone spirit."
+  },
+  "rum-espresso-sour": {
+    "description": "Dark rum, fresh espresso, citrus, and shake.",
+    "yield": "Fresh espresso, shaken cold",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Dark rum, 45 ml",
+      "Lemon juice, 20 ml",
+      "Sugar syrup, 15 ml",
+      "Hard ice, 120 ml"
+    ],
+    "method": [
+      "Chill the glass. Hard ice in the shaker.",
+      "Dark rum, lemon juice and sugar syrup in the shaker.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml. Add it last, while it is still aromatic.",
+      "Shake hard 10–15 seconds. Fine-strain.",
+      "Serve at once."
+    ],
+    "proTip": "Balance sour against coffee bitter—too little syrup and rum plus espresso turns harsh.",
+    "serve": "Chilled 130–150 ml coupe; foam cap clean, no ice chips."
+  },
+  "coffee-margarita": {
+    "description": "Tequila, coffee liqueur, fresh espresso, and lime.",
+    "yield": "Fresh espresso, shaken cold",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Tequila, 40 ml",
+      "Coffee liqueur, 15 ml",
+      "Lime juice, 20 ml",
+      "Hard ice, 120 ml"
+    ],
+    "method": [
+      "Chill the glass. Hard ice in the shaker.",
+      "Tequila, coffee liqueur and lime in the shaker.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml. Add it last, while it is still aromatic.",
+      "Shake hard 10–15 seconds. Fine-strain.",
+      "Serve at once."
+    ],
+    "proTip": "Lime and espresso both bring acid—pull a sweet shot or the cup turns sharp.",
+    "serve": "Chilled 150–180 ml rocks or coupe; cold, integrated, clean finish."
+  },
+  "affogato-martini": {
+    "description": "Espresso martini meets vanilla liqueur and cream cues.",
+    "yield": "Fresh espresso, shaken cold",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Vodka, 40 ml",
+      "Coffee liqueur, 15 ml",
+      "Vanilla liqueur (sweet vanilla-flavoured liqueur), 15 ml",
+      "Hard ice, 120 ml"
+    ],
+    "method": [
+      "Chill the glass. Hard ice in the shaker.",
+      "Vodka, coffee liqueur and vanilla liqueur in the shaker.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml. Add it last, while it is still aromatic.",
+      "Shake hard 10–15 seconds. Fine-strain.",
+      "Serve at once."
+    ],
+    "proTip": "Vanilla liqueur is the gelato cue—too much and coffee disappears under dessert.",
+    "serve": "Chilled 130–150 ml coupe; foam cap high, cold throughout."
+  },
+  "cold-brew-white-negroni": {
+    "description": "Gin, Suze or bitter aperitif, white vermouth, and cold brew.",
+    "yield": "Coffee, 36 g · Water, 120 ml · Gin, 25 ml",
+    "ingredients": [
+      "Coffee, 36 g",
+      "Water, 120 ml",
+      "Gin, 25 ml",
+      "Suze, 25 ml",
+      "White vermouth, 25 ml",
+      "Hard ice, 80 ml"
+    ],
+    "method": [
+      "Hard ice in a mixing glass.",
+      "Gin, Suze, white vermouth.",
+      "Cold brew last.",
+      "Stir until cold. Strain. Serve at once."
+    ],
+    "proTip": "Suze and cold brew both bring bitter—fresh concentrate, not yesterday’s batch.",
+    "serve": "200 ml rocks glass; pale, cold, integrated."
+  },
+  "spiced-rum-cold-brew": {
+    "description": "Cold brew lengthened with spiced rum over ice.",
+    "yield": "Coffee, 36 g · Water, 120 ml · Spiced rum, 40 ml",
+    "ingredients": [
+      "Coffee, 36 g",
+      "Water, 120 ml",
+      "Spiced rum, 40 ml",
+      "Hard ice, 100 ml"
+    ],
+    "method": [
+      "Hard ice. Spiced rum in the shaker.",
+      "Cold brew last.",
+      "Shake hard 12–15 seconds. Fine-strain.",
+      "Serve at once."
+    ],
+    "proTip": "Spiced rum is the sweetener—taste before you add syrup.",
+    "serve": "300–350 ml Collins over ice; cold throughout."
+  },
+  "molasses-old-fashioned-coffee": {
+    "description": "Bourbon stirred with molasses syrup and fresh espresso.",
+    "yield": "Coffee, espresso dose · Bourbon, 50 ml · Molasses syrup (sweetened molasses syrup), 10 ml",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Bourbon, 50 ml",
+      "Molasses syrup (sweetened molasses syrup), 10 ml",
+      "Coffee bitters, 2 ml",
+      "Hard ice, 80 ml"
+    ],
+    "method": [
+      "One large hard cube in a rocks glass.",
+      "Bourbon, molasses syrup and coffee bitters in a mixing glass, on ice.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml. Cool briefly. Add. Stir until cold.",
+      "Strain over the cube. Serve at once."
+    ],
+    "proTip": "Molasses punishes heavy hands—taste after ten seconds of stir before you add more syrup.",
+    "serve": "200 ml rocks glass on a large cube; cold, spirit-forward, long finish."
+  },
+  "honey-latte": {
+    "description": "Honey syrup and fresh espresso in steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 165 ml",
+      "Honey syrup (honey loosened with water for easy mixing), 12 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Honey syrup into the hot shot. Stir until even.",
+      "While the shot runs, steam milk to 60–65°C into glossy, pourable microfoam — not a dry cap.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour. Serve at once."
+    ],
+    "proTip": "Honey reads louder than vanilla—fix the shot before you reach for a second pump of syrup.",
+    "serve": "280–320 ml warm cup; hot through the last third."
+  },
+  "vanilla-latte": {
+    "description": "Vanilla syrup and fresh espresso in steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 165 ml",
+      "Vanilla syrup (sweetened vanilla syrup), 12 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Vanilla syrup into the hot shot. Stir until even.",
+      "While the shot runs, steam milk to 60–65°C into glossy, pourable microfoam — not a dry cap.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour. Serve at once."
+    ],
+    "proTip": "If the drink tastes sweet but empty, fix the espresso before you add syrup—milk is already doing sweetness work.",
+    "serve": "280–320 ml cup or glass; hot through the last third."
+  },
+  "maple-latte": {
+    "description": "Maple syrup and fresh espresso in steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 165 ml",
+      "Maple syrup, 12 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Maple syrup into the hot shot. Stir until even.",
+      "While the shot runs, steam milk to 60–65°C into glossy, pourable microfoam — not a dry cap.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour. Serve at once."
+    ],
+    "proTip": "Pick one house rule—syrup before steam reads louder, syrup after steam reads rounder—and never switch mid-shift.",
+    "serve": "280–320 ml warm cup; hot through the last third."
+  },
+  "salted-caramel-latte": {
+    "description": "Salted caramel syrup and fresh espresso in steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 165 ml",
+      "Salted caramel syrup (sweetened caramel syrup with salt), 12 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Salted caramel syrup into the hot shot. Stir until even. Taste before you add more salt.",
+      "While the shot runs, steam milk to 60–65°C into glossy, pourable microfoam — not a dry cap.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour. Serve at once."
+    ],
+    "proTip": "Salted caramel drifts sweet between bottles. Taste before you line it up.",
+    "serve": "280–320 ml warm cup; hot through the last third."
+  },
+  "hazelnut-cappuccino": {
+    "description": "Hazelnut syrup and fresh espresso under dense cappuccino foam.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 120 ml",
+      "Hazelnut syrup (sweetened hazelnut syrup), 12 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Hazelnut syrup into the hot shot. Stir until even.",
+      "While the shot runs, steam milk to 60–65°C into dense, glossy cappuccino foam. Keep a cap, not peaks.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour. Serve at once."
+    ],
+    "proTip": "Hazelnut reads perfumed, not candy, when the shot is sweet—fix espresso before you add syrup.",
+    "serve": "160–200 ml warm cup; guest should smell nut and coffee through foam on the first lift."
+  },
+  "cinnamon-latte": {
+    "description": "Cinnamon syrup and fresh espresso in steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 165 ml",
+      "Cinnamon syrup (sweetened cinnamon syrup), 12 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Cinnamon syrup into the hot shot. Stir until even.",
+      "While the shot runs, steam milk to 60–65°C into glossy, pourable microfoam — not a dry cap.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour. Serve at once."
+    ],
+    "proTip": "Cinnamon punishes heavy hands—when the cup reads like red hots, cut syrup before you open the grind.",
+    "serve": "280–320 ml warm cup; hot through the last third."
+  },
+  "cardamom-latte": {
+    "description": "Cardamom syrup and fresh espresso in steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 165 ml",
+      "Cardamom syrup (sweetened cardamom syrup), 12 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Cardamom syrup into the hot shot. Stir until even.",
+      "While the shot runs, steam milk to 60–65°C into glossy, pourable microfoam — not a dry cap.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour. Serve at once."
+    ],
+    "proTip": "Cardamom is perfume, not volume—one pump too many and the cup reads like soap.",
+    "serve": "280–320 ml warm cup; hot through the last third."
+  },
+  "lavender-latte": {
+    "description": "Lavender syrup and fresh espresso in steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 165 ml",
+      "Lavender syrup (sweetened lavender syrup), 10 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Lavender syrup into the hot shot. Stir until even. Perfume, not volume.",
+      "While the shot runs, steam milk to 60–65°C into glossy, pourable microfoam — not a dry cap.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour. Serve at once."
+    ],
+    "proTip": "When guests say it tastes like soap, you added too much lavender—cut syrup, do not chase a finer grind.",
+    "serve": "280–320 ml warm cup; hot through the last third."
+  },
+  "rose-latte": {
+    "description": "Rose syrup and fresh espresso in steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 165 ml",
+      "Rose syrup (sweetened rose syrup), 10 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Rose syrup into the hot shot. Stir until even. A light hand.",
+      "While the shot runs, steam milk to 60–65°C into glossy, pourable microfoam — not a dry cap.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour. Serve at once."
+    ],
+    "proTip": "Rose is a garnish flavour in the build—heavy hands turn a latte into candy.",
+    "serve": "280–320 ml warm cup; hot through the last third."
+  },
+  "pistachio-latte": {
+    "description": "Pistachio syrup and fresh espresso in steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 165 ml",
+      "Pistachio syrup (sweetened pistachio syrup), 12 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Pistachio syrup into the hot shot. Stir until even.",
+      "While the shot runs, steam milk to 60–65°C into glossy, pourable microfoam — not a dry cap.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour. Serve at once."
+    ],
+    "proTip": "Pistachio syrup runs sweet—fix the shot before you line up a second pump.",
+    "serve": "280–320 ml warm cup; hot through the last third."
+  },
+  "black-sesame-latte": {
+    "description": "Black sesame syrup and fresh espresso in steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 165 ml",
+      "Black sesame syrup (sweetened sesame syrup/paste base), 15 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Black sesame syrup into the hot shot. Stir until even — sesame clumps in cold milk.",
+      "While the shot runs, steam milk to 60–65°C into glossy, pourable microfoam — not a dry cap.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour. Serve at once."
+    ],
+    "proTip": "Sesame clumps in cold milk—always pre-wet syrup before you touch steam.",
+    "serve": "280–320 ml warm cup; latte length, hot through the last third."
+  },
+  "speculoos-latte": {
+    "description": "Speculoos syrup and fresh espresso in steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 165 ml",
+      "Speculoos syrup (sweetened biscuit-spice syrup), 12 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Speculoos syrup into the hot shot. Stir until even.",
+      "While the shot runs, steam milk to 60–65°C into glossy, pourable microfoam — not a dry cap.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour. Serve at once."
+    ],
+    "proTip": "Speculoos is dessert-leaning—when the cup turns candy, cut syrup before you chase a finer grind.",
+    "serve": "280–320 ml warm cup; hot through the last third."
+  },
+  "chai-spiced-latte": {
+    "description": "Chai syrup and fresh espresso in steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 165 ml",
+      "Chai syrup (sweetened chai-spice syrup), 15 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Chai syrup into the hot shot. Stir until even.",
+      "While the shot runs, steam milk to 60–65°C into glossy, pourable microfoam — not a dry cap.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour. Serve at once."
+    ],
+    "proTip": "Chai plus espresso both bring bitter—pull a sweet shot or the cup turns one-note.",
+    "serve": "280–320 ml warm cup; hot through the last third."
+  },
+  "butterscotch-latte": {
+    "description": "Butterscotch syrup and fresh espresso in steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 165 ml",
+      "Butterscotch syrup (sweetened butterscotch syrup), 12 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Butterscotch syrup into the hot shot. Stir until even.",
+      "While the shot runs, steam milk to 60–65°C into glossy, pourable microfoam — not a dry cap.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour. Serve at once."
+    ],
+    "proTip": "Butterscotch reads as dessert—fix the shot before you add a second pump of syrup.",
+    "serve": "280–320 ml warm cup; hot through the last third."
+  },
+  "irish-cream-latte": {
+    "description": "Irish cream liqueur and fresh espresso in steamed milk.",
+    "yield": "Coffee, espresso dose · Irish cream liqueur, 30 ml · Whole milk, 150 ml",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Irish cream liqueur, 30 ml",
+      "Whole milk, 150 ml"
+    ],
+    "method": [
+      "Warm the cup. Irish cream liqueur in.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml. Stir into the liqueur.",
+      "While the shot runs, steam milk to 60–65°C into glossy, pourable microfoam — not a dry cap.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour. Serve at once. Stop the milk before it cooks."
+    ],
+    "proTip": "Irish cream plus hot steam can smell sharp—stop the wand before the milk passes about 72°C (162°F).",
+    "serve": "280–320 ml warm cup; hot through the last third."
+  },
+  "honeycomb-flat-white": {
+    "description": "Honeycomb syrup and one double espresso (60–70 ml).",
+    "yield": "60–70 ml fresh double espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 100 ml",
+      "Honeycomb syrup (sweetened honeycomb/toffee syrup), 12 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 60–70 ml — a double.",
+      "Honeycomb syrup into the hot shot. Stir until even.",
+      "While the shot runs, steam milk to 60–65°C with very little air: glossy, pourable microfoam, not cappuccino foam.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "90–110 ml milk into a 150–180 ml cup. Serve at once."
+    ],
+    "proTip": "A flat white fails when the milk becomes too airy; keep it tight and polished.",
+    "serve": "150–180 ml warm cup; serve immediately while the microfoam is glossy."
+  },
+  "orange-mocha": {
+    "description": "Espresso and dark chocolate, folded through steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Dark chocolate, 12 g",
+      "Orange syrup (sweetened orange syrup), 8 ml",
+      "Whole milk, 165 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Dark chocolate in the cup. Pour the shot over. Stir until glossy. Orange syrup in.",
+      "While the shot runs, steam milk to 60–65°C until glossy and creamy, not dry foam.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour the milk into the chocolate base. Serve at once."
+    ],
+    "proTip": "Real chocolate gives better body and finish than default powder.",
+    "serve": "280–320 ml warm cup; hot through the last third."
+  },
+  "raspberry-white-mocha": {
+    "description": "White chocolate and espresso, folded through steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "White chocolate, 14 g",
+      "Raspberry syrup (sweetened raspberry syrup), 10 ml",
+      "Whole milk, 165 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "White chocolate in the cup. Loosen with a splash of hot milk if needed. Pour the shot over. Raspberry syrup in.",
+      "While the shot runs, steam milk to 60–65°C until glossy and creamy, not dry foam.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour the milk into the chocolate base. Serve at once."
+    ],
+    "proTip": "White chocolate is sweet and delicate: use a little hot milk only if needed to loosen it, then pour the full fresh espresso over it so the chocolate and coffee integrate cleanly.",
+    "serve": "280–320 ml warm cup; hot through the last third."
+  },
+  "fig-cortado": {
+    "description": "Fig syrup and fresh espresso cut with warm milk in a small glass.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 60 ml",
+      "Fig syrup (sweetened fig syrup), 8 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Fig syrup into the hot shot. Stir until even.",
+      "While the shot runs, steam milk to 60–65°C with only light microfoam.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Keep it short. Serve at once."
+    ],
+    "proTip": "Fig reads jam-sweet fast—cut syrup before you add milk; cortado ratio is the recipe.",
+    "serve": "120–150 ml vessel; warm to the touch; serve immediately, at once."
+  },
+  "winter-spice-americano": {
+    "description": "Fresh espresso lengthened with hot water and winter spice syrup.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Water, 120 ml",
+      "Winter spice syrup (sweetened spice syrup), 10 ml"
+    ],
+    "method": [
+      "Winter spice syrup in a warm cup.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml onto the syrup. Stir once.",
+      "Hot water on top, 120 ml.",
+      "Serve hot. The spice should lift the americano, not sweeten it into something else."
+    ],
+    "proTip": "Stir the syrup into the espresso before adding water; it spreads flavour without flattening the coffee.",
+    "serve": "200–240 ml warm cup; serve hot, not lukewarm after waiting too long."
+  },
+  "apple-crisp-latte": {
+    "description": "Apple syrup, cinnamon, and fresh espresso in steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 165 ml",
+      "Apple syrup (sweetened apple syrup), 12 ml",
+      "Cinnamon syrup (sweetened cinnamon syrup), 6 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Apple syrup and cinnamon syrup into the hot shot. Stir until even.",
+      "While the shot runs, steam milk to 60–65°C into glossy, pourable microfoam — not a dry cap.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour. Serve at once."
+    ],
+    "proTip": "Apple plus cinnamon both sweeten—fix the shot before you chase a second pump of syrup.",
+    "serve": "280–320 ml warm cup; hot through the last third."
+  },
+  "pumpkin-spice-latte": {
+    "description": "Pumpkin spice syrup and fresh espresso in steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 165 ml",
+      "Pumpkin spice syrup (sweetened spice syrup), 15 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Pumpkin spice syrup into the hot shot first — not after the milk.",
+      "While the shot runs, steam milk to 60–65°C into glossy, pourable microfoam — not a dry cap.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour. Serve at once."
+    ],
+    "proTip": "Add pumpkin spice syrup to the espresso first; adding it after milk makes the spice taste patchy.",
+    "serve": "280–320 ml warm cup; hot through the last third."
+  },
+  "gingerbread-latte": {
+    "description": "Gingerbread syrup and fresh espresso in steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 165 ml",
+      "Gingerbread syrup (sweetened gingerbread-spice syrup), 15 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Gingerbread syrup into the hot shot. Stir until even.",
+      "While the shot runs, steam milk to 60–65°C into glossy, pourable microfoam — not a dry cap.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour. Serve at once."
+    ],
+    "proTip": "Gingerbread is dessert-leaning—fix the shot before you line up a double pump of syrup.",
+    "serve": "280–320 ml warm cup; hot through the last third."
+  },
+  "cherry-blossom-latte": {
+    "description": "Cherry blossom syrup and fresh espresso in steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 165 ml",
+      "Cherry blossom syrup (sweetened floral syrup), 10 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Cherry blossom syrup into the hot shot. Stir until even. A light hand.",
+      "While the shot runs, steam milk to 60–65°C into glossy, pourable microfoam — not a dry cap.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour. Serve at once."
+    ],
+    "proTip": "When guests say it tastes like soap, you added too much blossom—cut syrup, do not chase a finer grind.",
+    "serve": "280–320 ml warm cup; hot through the last third."
+  },
+  "peppermint-mocha": {
+    "description": "Espresso and dark chocolate, folded through steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Dark chocolate, 12 g",
+      "Peppermint syrup (sweetened peppermint syrup), 10 ml",
+      "Whole milk, 165 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Dark chocolate in the cup. Pour the shot over. Stir until glossy. Peppermint syrup in.",
+      "While the shot runs, steam milk to 60–65°C until glossy and creamy, not dry foam.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour the milk into the chocolate base. Serve at once."
+    ],
+    "proTip": "Real chocolate gives better body and finish than default powder.",
+    "serve": "280–320 ml warm cup; hot through the last third."
+  },
+  "eggnog-latte": {
+    "description": "Eggnog and fresh espresso in steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Eggnog, 80 ml",
+      "Whole milk, 90 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Eggnog into the hot shot. Stir.",
+      "While the shot runs, steam milk to 60–65°C into glossy, pourable microfoam — not a dry cap.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour. Serve at once."
+    ],
+    "proTip": "Eggnog is the sweetener—cut dairy richness before you reach for syrup.",
+    "serve": "280–320 ml warm cup; hot through the last third."
+  },
+  "salted-maple-latte": {
+    "description": "Salted maple syrup and fresh espresso in steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 165 ml",
+      "Salted maple syrup (maple syrup with a small salt note), 12 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Salted maple syrup into the hot shot. Stir until even.",
+      "While the shot runs, steam milk to 60–65°C into glossy, pourable microfoam — not a dry cap.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour. Serve at once."
+    ],
+    "proTip": "Salted maple batches drift sweet—taste every new bottle before you line it up for rush.",
+    "serve": "280–320 ml warm cup; hot through the last third."
+  },
+  "toasted-marshmallow-mocha": {
+    "description": "Espresso and dark chocolate, folded through steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Dark chocolate, 12 g",
+      "Marshmallow syrup (sweetened marshmallow-flavour syrup), 12 ml",
+      "Whole milk, 165 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Dark chocolate in the cup. Pour the shot over. Stir until glossy. Marshmallow syrup in.",
+      "While the shot runs, steam milk to 60–65°C until glossy and creamy, not dry foam.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour the milk into the chocolate base. Serve at once."
+    ],
+    "proTip": "Real chocolate gives better body and finish than default powder.",
+    "serve": "280–320 ml warm cup; hot through the last third."
+  },
+  "cranberry-white-mocha": {
+    "description": "White chocolate and espresso, folded through steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "White chocolate, 14 g",
+      "Cranberry syrup (sweetened cranberry syrup), 10 ml",
+      "Whole milk, 165 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "White chocolate in the cup. Loosen with a splash of hot milk if needed. Pour the shot over. Cranberry syrup in.",
+      "While the shot runs, steam milk to 60–65°C until glossy and creamy, not dry foam.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour the milk into the chocolate base. Serve at once."
+    ],
+    "proTip": "White chocolate is sweet and delicate: use a little hot milk only if needed to loosen it, then pour the full fresh espresso over it so the chocolate and coffee integrate cleanly.",
+    "serve": "280–320 ml warm cup; hot through the last third."
+  },
+  "spring-honey-flat-white": {
+    "description": "Honey syrup and one double espresso (60–70 ml).",
+    "yield": "60–70 ml fresh double espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 100 ml",
+      "Honey syrup (honey loosened with water for easy mixing), 10 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 60–70 ml — a double.",
+      "Honey syrup into the hot shot. Stir until even.",
+      "While the shot runs, steam milk to 60–65°C with very little air: glossy, pourable microfoam, not cappuccino foam.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "90–110 ml milk into a 150–180 ml cup. Serve at once."
+    ],
+    "proTip": "Spring honey reads louder than winter maple on a tight ratio—start at half pump and taste.",
+    "serve": "150–180 ml warm cup; serve immediately while the microfoam is glossy."
+  },
+  "peter-s-velvet-ristretto": {
+    "description": "A short, dense espresso. Sweet, syrupy, Peter’s window for clarity and body.",
+    "yield": "18–22 ml ristretto",
+    "ingredients": [
+      "Coffee, espresso dose"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 18–22 ml. Stop while sweetness is still leading.",
+      "Serve at once."
+    ],
+    "proTip": "Do not chase volume. If it is sour or harsh, change grind — not water, not milk.",
+    "serve": "60 ml warm cup; no saucer clutter—let the demitasse read as the whole gesture."
+  },
+  "peter-s-oat-cortado": {
+    "description": "A compact oat-milk coffee with high espresso clarity.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Oat milk, 60 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Oat milk to 60–65°C, smooth and glossy. Stop before it cooks.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Short pour. Cortado height, not latte height. Serve at once."
+    ],
+    "proTip": "Oat turns bitter when the milk passes about 72°C (162°F)—stop the steam while the jug reads about 65°C (149°F) in the hand.",
+    "serve": "120 ml preheated glass; cortado height, not latte height."
+  },
+  "hernou-reserve-mocha": {
+    "description": "Espresso and dark chocolate, folded through steamed milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 150 ml",
+      "Dark chocolate, 16 g"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Dark chocolate in the cup. Pour the shot over. Stir until glossy. Coffee leads — not candy.",
+      "While the shot runs, steam milk to 60–65°C until glossy and creamy, not dry foam.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour the milk into the chocolate base. Serve at once."
+    ],
+    "proTip": "Real chocolate gives better body and finish than default powder.",
+    "serve": "220 ml warm cup; serve hot, not tongue-scalding."
+  },
+  "peter-s-espresso-tonic": {
+    "description": "Bright espresso over tonic with citrus lift and clean bitterness.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Tonic, 140 ml",
+      "Hard ice, 120 ml"
+    ],
+    "method": [
+      "Chill the glass. Hard ice.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml. Cool briefly over ice so it does not flatten the bubbles.",
+      "Tonic in the glass.",
+      "Sparkling mixer down the ice, slowly.",
+      "Coffee last, gently over the top. Stir once only if you need to. Serve while it sparkles."
+    ],
+    "proTip": "Never shake tonic and espresso together.",
+    "serve": "300 ml glass, full ice; straw on the side so guests can stir once before the last third."
+  },
+  "peter-s-affogato-classico": {
+    "description": "Fresh espresso poured immediately over one scoop, or more, of vanilla gelato; Peter’s tableside classic with instant cooling and clean bitter-sweet cream.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Vanilla gelato, 80–160 g; one large scoop or two smaller scoops depending on glass size"
+    ],
+    "method": [
+      "Vanilla gelato in a chilled dessert glass.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Pour at once onto the gelato — from the spouts if you can.",
+      "Spoon and napkin. Serve while the first melt is still creamy."
+    ],
+    "proTip": "The theatre is the pour, but the quality is speed: espresso should hit the frozen gelato immediately, ideally direct from the espresso spouts/portafilter or moka pot, so aroma.",
+    "serve": "160 ml dessert glass; one large scoop or two smaller scoops; spoon and napkin, no side clutter."
+  },
+  "peter-s-irish-coffee": {
+    "description": "Warm coffee, whiskey and cream with a clean layered finish.",
+    "yield": "Hot coffee, spirit, floated cream",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Water, 150 ml",
+      "Irish whiskey, 40 ml",
+      "Sugar syrup, 15 ml",
+      "Cream, 45 ml"
+    ],
+    "method": [
+      "Warm the glass, then empty it.",
+      "Irish whiskey in.",
+      "Sugar in. A splash of hot coffee. Stir until smooth.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml, or a fresh hot brew. Pour into the glass.",
+      "Softly whipped cream, floated. Do not stir it in. Serve at once."
+    ],
+    "proTip": "Float the cream softly; the guest should drink through it, not stir it in.",
+    "serve": "240 ml handled glass; hot enough to steam gently, never lukewarm."
+  },
+  "peter-s-chocolate-orange-espresso": {
+    "description": "Espresso, dark chocolate and orange aroma in a compact dessert coffee.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Dark chocolate, 12 g",
+      "Orange syrup (sweetened orange syrup), 6 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Dark chocolate in the cup. Pour the shot over. Stir until glossy.",
+      "Orange syrup in. No milk.",
+      "Serve at once, while it is warm and glossy."
+    ],
+    "proTip": "Real chocolate gives better body and finish than default powder.",
+    "serve": "120–140 ml warm cup; demitasse saucer, no tall spoon."
+  },
+  "peter-s-maple-flat-white": {
+    "description": "Flat white frame with maple warmth.",
+    "yield": "60–70 ml fresh double espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 100 ml",
+      "Maple syrup, 10 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 60–70 ml — a double.",
+      "Maple syrup into the hot shot. Stir until even.",
+      "While the shot runs, steam milk to 60–65°C with very little air: glossy, pourable microfoam, not cappuccino foam.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "90–110 ml milk into a 150–180 ml cup. Serve at once."
+    ],
+    "proTip": "Pick one house rule—syrup before steam reads louder, syrup after steam reads rounder—and never switch mid-shift.",
+    "serve": "150–180 ml warm cup; serve immediately while the microfoam is glossy."
+  },
+  "peter-s-black-sesame-latte": {
+    "description": "Toasty black sesame with espresso and silky milk.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 180 ml",
+      "Black sesame syrup (sweetened sesame syrup/paste base), 15 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Black sesame syrup into the hot shot. Stir until even.",
+      "While the shot runs, steam milk to 60–65°C into glossy, pourable microfoam — not a dry cap.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour. Serve at once."
+    ],
+    "proTip": "Sesame clumps in cold milk—always pre-wet syrup before you touch steam.",
+    "serve": "240 ml warm cup; latte length, Peter’s flavour spine."
+  },
+  "peter-s-reserve-pour-over": {
+    "description": "Peter’s reserve pour-over. The lot, a calm brew, one tasting cue.",
+    "yield": "18 g coffee, 300 ml water",
+    "ingredients": [
+      "Coffee, 18 g",
+      "Water, 300 ml"
+    ],
+    "method": [
+      "Name the lot: origin, process where you know it, roast rest, one note.",
+      "Grind on demand to the dialled reserve grind. Rinse, preheat, dose even, level the bed.",
+      "Bloom 30–45 seconds. Calm pulses. Keep the bed level.",
+      "Target 2:45–3:45 for a 300–320 ml cup.",
+      "Small carafe. One cue. Not a lecture."
+    ],
+    "proTip": "Peter’s reserve pour-over needs theatre with discipline: name the lot, brew it calmly, then give one concise tasting cue instead of a lecture.",
+    "serve": "300–320 ml small carafe into a warm cup; serve with lot name, origin/process cue and expected tasting notes."
+  },
+  "peter-s-coffee-negroni": {
+    "description": "Espresso meets Negroni bittersweet balance.",
+    "yield": "Coffee, espresso dose · Gin, 25 ml · Campari, 25 ml",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Gin, 25 ml",
+      "Campari, 25 ml",
+      "Sweet vermouth, 25 ml",
+      "Hard ice, 80 ml"
+    ],
+    "method": [
+      "Hard ice in a mixing glass.",
+      "Gin, Campari, sweet vermouth.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml last. Stir until cold. Strain.",
+      "Serve at once."
+    ],
+    "proTip": "Brew espresso last—coffee that sat on the spouts reads flat and woody against Campari, not bold.",
+    "serve": "200 ml rocks glass; cold enough to bite the lip, not so wet the ice is half melt."
+  },
+  "peter-s-tiramisu-espresso": {
+    "description": "Espresso layered with mascarpone-style cream and cocoa.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Cream, 35 ml",
+      "Cocoa, for dusting, 6 g"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Lightly whip cold cream until soft and pourable.",
+      "Float the cream over the back of a spoon.",
+      "A light cocoa dust. Serve at once."
+    ],
+    "proTip": "Use cocoa as a light aromatic dusting only; the drink should read as coffee plus soft cream, not as a chocolate-base mocha.",
+    "serve": "140 ml demitasse or dessert cup; spoon on saucer, napkin folded small."
+  },
+  "house-flat-white": {
+    "description": "The house flat white. Same double, same milk, same cup, every time.",
+    "yield": "60–70 ml double espresso + 90–110 ml milk",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 100 ml"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 60–70 ml — a double.",
+      "While the shot runs, steam milk to 60–65°C with very little air: glossy, pourable microfoam, not cappuccino foam.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour the milk into the coffee. Serve at once."
+    ],
+    "proTip": "A spec, not a suggestion. If it drifts into latte volume, it is not the house flat white.",
+    "serve": "150–180 ml warm cup; serve immediately while the microfoam is glossy."
+  },
+  "cold-brew-spritz": {
+    "description": "Cold brew, soda, and citrus in a non-alcoholic coffee spritz.",
+    "yield": "Coffee, 36 g · Water, 120 ml · Soda water, 120 ml",
+    "ingredients": [
+      "Coffee, 36 g",
+      "Water, 120 ml",
+      "Soda water, 120 ml",
+      "Orange syrup (sweetened orange syrup), 8 ml",
+      "Hard ice, 80 ml"
+    ],
+    "method": [
+      "Chill the glass. Hard ice.",
+      "Prepared cold brew, fully chilled.",
+      "Orange syrup in first.",
+      "Soda down the ice, slowly.",
+      "Cold brew last, gently. Serve while it sparkles."
+    ],
+    "proTip": "Spritz balance starts with cold brew strength before dilution: keep the coffee concentrated enough to survive soda, add bubbles last and reduce syrup before the drink becomes.",
+    "serve": "280–320 ml stem or highball; cold stem keeps spritz honest in the hand."
+  },
+  "signature-iced-latte": {
+    "description": "Clean iced latte built for clarity, not dilution.",
+    "yield": "30–35 ml fresh espresso",
+    "ingredients": [
+      "Coffee, espresso dose",
+      "Whole milk, 150 ml",
+      "Hard ice, 100 ml"
+    ],
+    "method": [
+      "Hard ice in a chilled glass.",
+      "Cold whole milk on the ice.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "Pour the shot last, directly over the ice.",
+      "Serve at once."
+    ],
+    "proTip": "Lukewarm milk coffee is almost always warm milk in the build—fix cold chain before you blame the shot.",
+    "serve": "300 ml glass; ice and milk measured so the cup still feels like coffee, not water."
+  },
+  "peter-s-chilly-choffy": {
+    "description": "A dense cold chocolate-coffee shake with dark ganache, coffee ice cubes, cold milk and vanilla ice cream..",
+    "yield": "Cold milk, 150 ml · Liquid dark chocolate ganache, 35 ml · Coffee ice cubes, 80 g",
+    "ingredients": [
+      "Cold milk, 150 ml",
+      "Liquid dark chocolate ganache, 35 ml",
+      "Coffee ice cubes, 80 g",
+      "Vanilla ice cream, 70 g",
+      "Cold brew or chilled espresso, 30 ml"
+    ],
+    "method": [
+      "Chill the glass. Milk and ice cream stay cold.",
+      "Dark ganache with a splash of cold milk, until smooth.",
+      "Cold brew or chilled espresso, and coffee ice. Blend just to chill.",
+      "Ice cream last. Blend only until thick and pourable.",
+      "Serve at once."
+    ],
+    "proTip": "Cold chocolate drinks need texture control: blend until smooth, then stop before the body turns thin.",
+    "serve": "300–350 ml chilled glass with straw; add a small chocolate garnish only when it supports the serve."
+  },
+  "creamy-dream": {
+    "description": "A caramel-chocolate dessert coffee with fresh espresso and caramelised pecans: rich, sweet and built as a dessert serve, not a standard latte.",
+    "yield": "Fresh espresso, 30–35 ml · Milk, 200 ml · Ground white chocolate, 50 g",
+    "ingredients": [
+      "Fresh espresso, 30–35 ml",
+      "Milk, 200 ml",
+      "Ground white chocolate, 50 g",
+      "Caramel syrup (sweetened caramel syrup), 20 ml",
+      "Pecans, 12 g",
+      "Fine sugar, 8 g",
+      "Water, 8 ml",
+      "Fine sea salt, 1 pinch"
+    ],
+    "method": [
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml.",
+      "White chocolate in the cup. Pour the shot over. Stir until glossy. Caramel, sugar, a pinch of salt.",
+      "While the shot runs, steam milk to 60–65°C into glossy, pourable microfoam — not a dry cap.",
+      "No steam wand: warm the milk to 60–65°C, froth 10–20 seconds, tap, swirl and pour while glossy.",
+      "Pour. Pecans on top so they stay crunchy. Serve at once."
+    ],
+    "proTip": "If it tastes too sweet, reduce the syrup slightly next time.",
+    "serve": "Warmed clear 280–320 ml glass showing caramel, white-chocolate milk, espresso and foam layers."
+  },
+  "grand-pom-pom": {
+    "description": "Warm apple-pomegranate juice, dark chocolate and Grand Marnier finished with cream, pomegranate and chocolate curls..",
+    "yield": "Apple-pomegranate juice, 220 ml · Ground dark chocolate, 50 g · Grand Marnier, 25 ml",
+    "ingredients": [
+      "Apple-pomegranate juice, 220 ml",
+      "Ground dark chocolate, 50 g",
+      "Grand Marnier, 25 ml",
+      "Lightly whipped cream, 40 ml",
+      "Pomegranate seeds, 8 g",
+      "Dark chocolate curls, 3 g"
+    ],
+    "method": [
+      "Warm the apple-pomegranate juice. Do not boil.",
+      "Dark chocolate with a splash of the warm juice, until glossy. Rest of the juice in.",
+      "Grand Marnier off the heat.",
+      "Soft cream, floated. Pomegranate and chocolate curls.",
+      "Serve at once."
+    ],
+    "proTip": "Fruit acidity sharpens under high heat.",
+    "serve": "Serve hot in a warmed 260–300 ml glass with cream, pomegranate and dark chocolate garnish."
+  },
+  "peter-s-cuban-kiss": {
+    "description": "A warm chocolate-coffee cocktail with rum, cream and cacao warmth; served as a composed drink, not a boozy mocha shortcut..",
+    "yield": "Fresh espresso, 32 ml · Dark rum, 30 ml · Dark chocolate ganache or sauce, 25 g",
+    "ingredients": [
+      "Fresh espresso, 32 ml",
+      "Dark rum, 30 ml",
+      "Dark chocolate ganache or sauce, 25 g",
+      "Whole milk or light cream, 120 ml",
+      "Cocoa or chocolate shaving, 1 g"
+    ],
+    "method": [
+      "Warm the glass, then empty it.",
+      "Dark rum in. Chocolate ganache, a splash of hot coffee, stir until smooth.",
+      "Grind on demand. Distribute, level the puck and tamp straight.",
+      "Pull 30–35 ml into the glass.",
+      "Soft cream, floated. Serve hot. Do not boil after the rum is in."
+    ],
+    "proTip": "Keep heat under control after the rum is added.",
+    "serve": "180–220 ml preheated heatproof glass or cup; serve hot."
+  },
+  "pretty-in-pink": {
+    "description": "White chocolate, warm milk and beetroot.",
+    "yield": "White chocolate, milk, beetroot",
+    "ingredients": [
+      "Milk, 200 ml",
+      "White chocolate , 35 g",
+      "Beetroot juice, 20 ml",
+      "Lightly whipped cream, 40 ml",
+      "White chocolate crispearls, 5 g"
+    ],
+    "method": [
+      "White chocolate. A splash of milk. Whisk to a paste.",
+      "Beetroot juice and the rest of the milk. Heat to 60–70°C until smooth and pink.",
+      "Warm cup. Soft cream. White chocolate pearls.",
+      "Serve before a skin forms."
+    ],
+    "proTip": "Start with a paste.",
+    "serve": "Serve hot in a clear warmed 240–260 ml glass with pink cream and white chocolate pearls."
+  },
+  "peter-s-float-away": {
+    "description": "An oat-forward chocolate float with coffee depth, cool mint lift and a creamy finish..",
+    "yield": "Cold oat drink, 140 ml · Dark chocolate ganache or sauce, 30 g · Cold brew or chilled fresh espresso, 40 ml",
+    "ingredients": [
+      "Cold oat drink, 140 ml",
+      "Dark chocolate ganache or sauce, 30 g",
+      "Cold brew or chilled fresh espresso, 40 ml",
+      "Vanilla ice cream, 60 g",
+      "Fresh mint, 2 g"
+    ],
+    "method": [
+      "Chill the glass. Oat drink and ice cream stay cold.",
+      "Dark ganache with a splash of oat drink, until smooth.",
+      "Cold brew or chilled espresso, and mint. Blend or shake briefly.",
+      "Rest of the oat drink. Ice cream last, only until thick.",
+      "Mint. Serve cold."
+    ],
+    "proTip": "Cold chocolate drinks need texture control: blend until smooth, then stop before the body turns thin.",
+    "serve": "250–300 ml chilled glass with spoon and straw."
+  },
+  "chai-chocolatte": {
+    "description": "Dark chocolate melted into chai-infused milk.",
+    "yield": "Chai-infused Milk, 200 ml · Dark chocolate callets, 35 g · Chai spice mix, 2 g",
+    "ingredients": [
+      "Chai-infused Milk, 200 ml",
+      "Dark chocolate callets, 35 g",
+      "Chai spice mix, 2 g"
+    ],
+    "method": [
+      "Dark chocolate. A splash of chai-infused milk. Whisk to a paste.",
+      "Rest of the chai milk. Heat to 60–70°C until glossy. Do not boil.",
+      "Taste before you add sugar.",
+      "Warm cup. Serve before a skin forms."
+    ],
+    "proTip": "Start with a paste.",
+    "serve": "Serve hot in a warmed 220–240 ml cup or glass, with a very fine chai dusting when it is part of the service recipe."
+  },
+  "sailing-off": {
+    "description": "Filter coffee, real dark chocolate and port.",
+    "yield": "Fresh filter coffee, 100 ml · Ground dark chocolate, 45 g · Port, 80 ml",
+    "ingredients": [
+      "Fresh filter coffee, 100 ml",
+      "Ground dark chocolate, 45 g",
+      "Port, 80 ml",
+      "Lightly whipped cream, 40 ml",
+      "Roasted cocoa nibs, 3 g"
+    ],
+    "method": [
+      "Warm the glass, then empty it. Port in.",
+      "Dark chocolate with a splash of fresh filter coffee, until glossy.",
+      "Rest of the brew. Stir gently.",
+      "Soft cream, floated. Cocoa nibs.",
+      "Serve hot. Add the port late — boiled port is harsh."
+    ],
+    "proTip": "Boiled port tastes flat and harsh.",
+    "serve": "Serve hot in a warmed 220–260 ml cup or glass with cream and cocoa nib finish."
+  },
+  "bed-of-roses": {
+    "description": "Dark chocolate, warm milk and restrained rose.",
+    "yield": "Milk, 230 ml · Ground dark chocolate, 50 g · Rose syrup (sweetened rose syrup), 12 ml",
+    "ingredients": [
+      "Milk, 230 ml",
+      "Ground dark chocolate, 50 g",
+      "Rose syrup (sweetened rose syrup), 12 ml",
+      "Rose water, 1 ml",
+      "Lightly whipped cream, 40 ml",
+      "Dark chocolate garnish, 3 g"
+    ],
+    "method": [
+      "Dark chocolate, rose syrup, rose water. A splash of milk. Whisk to a paste.",
+      "Rest of the milk. Heat to 60–70°C until glossy.",
+      "Soft cream cap. Dark chocolate on top.",
+      "Serve before a skin forms. Rose is perfume, not volume."
+    ],
+    "proTip": "Start with a paste.",
+    "serve": "Serve hot in a warmed 280–300 ml glass or cup with a soft rose cream cap and dark chocolate finish."
+  },
+  "orange-is-the-new-pink": {
+    "description": "Fluid dark chocolate ganache, sparkling rosé and orange blossom.",
+    "yield": "Liquid dark chocolate ganache, 50 ml · Rosé champagne or quality sparkling rosé, 150 ml · Orange blossom water, 0.5 ml",
+    "ingredients": [
+      "Liquid dark chocolate ganache, 50 ml",
+      "Rosé champagne or quality sparkling rosé, 150 ml",
+      "Orange blossom water, 0.5 ml",
+      "Edible flowers, 2 pc",
+      "Orange blossom ice, 1 pc"
+    ],
+    "method": [
+      "Chill the glass. Orange-blossom ice in.",
+      "Orange-blossom water into the dark ganache until it loosens and looks glossy.",
+      "Ganache in the glass, below the sparkle.",
+      "Sparkling rosé down the side, slowly.",
+      "Edible flowers. Serve cold while it sparkles."
+    ],
+    "proTip": "Temperature is the drink.",
+    "serve": "Serve cold in a chilled coupe or cocktail glass with visible ganache and sparkling rosé layers."
+  },
+  "straws-stripes": {
+    "description": "Strawberry, dark chocolate ganache and warm milk.",
+    "yield": "Fresh strawberries, 80 g · Liquid dark chocolate ganache, 50 ml · Milk, 200 ml",
+    "ingredients": [
+      "Fresh strawberries, 80 g",
+      "Liquid dark chocolate ganache, 50 ml",
+      "Milk, 200 ml",
+      "Lightly whipped cream, 40 ml",
+      "Fine sugar, 5 g"
+    ],
+    "method": [
+      "Dark ganache with a splash of milk, until smooth.",
+      "Strawberries and sugar into the base.",
+      "Rest of the milk, until glossy. Heat gently to 60–70°C if this is the hot serve.",
+      "Soft strawberry cream on top.",
+      "Serve at once, in a clear glass so the layers show."
+    ],
+    "proTip": "Cold chocolate drinks need texture control: blend until smooth, then stop before the body turns thin.",
+    "serve": "Serve hot in a clear 280–300 ml glass showing strawberry, chocolate and milk layers with strawberry cream on top."
+  },
+  "i-put-a-spelt-on-you": {
+    "description": "Dark chocolate, spelt milk and a restrained spirulina note: grain-sweet, chocolate-led and green without tasting marine..",
+    "yield": "Spelt milk, 200 ml · Ground dark chocolate, 50 g · Spirulina powder, 0.8–1.5 g",
+    "ingredients": [
+      "Spelt milk, 200 ml",
+      "Ground dark chocolate, 50 g",
+      "Spirulina powder, 0.8–1.5 g",
+      "Cold spelt milk for slurry, 10 ml",
+      "Ground dark chocolate for finish, 2 g"
+    ],
+    "method": [
+      "Dark chocolate. A splash of spelt milk. Whisk to a paste.",
+      "Spirulina as a slurry with cold spelt milk, then in — a restrained note.",
+      "Rest of the spelt milk. Heat to 60–70°C until glossy.",
+      "Serve before a skin forms. Chocolate leads; green is a hint."
+    ],
+    "proTip": "Start with a paste.",
+    "serve": "Warmed 240–280 ml glass or cup with a light dark-chocolate finish."
+  },
+  "what-s-up-brew": {
+    "description": "Cold brew coffee, dark chocolate ganache and ginger syrup shaken cold: coffee energy with cocoa body and ginger lift..",
+    "yield": "Filtered cold brew coffee, 120 ml · Liquid dark chocolate ganache, 50 ml · Ginger syrup (sweetened ginger syrup), 15–20 ml",
+    "ingredients": [
+      "Filtered cold brew coffee, 120 ml",
+      "Liquid dark chocolate ganache, 50 ml",
+      "Ginger syrup (sweetened ginger syrup), 15–20 ml",
+      "Hard ice cubes, 120 g",
+      "Chocolate crispearls, 5 g"
+    ],
+    "method": [
+      "Chill the glass. Hard ice in a shaker.",
+      "Dark ganache with ginger syrup, until smooth.",
+      "Filtered cold brew in. Shake until cold.",
+      "Fine-strain. Chocolate pearls. Serve cold."
+    ],
+    "proTip": "Keep the ganache fluid but cold.",
+    "serve": "Serve cold in a chilled 200–240 ml glass or cup, nested in crushed ice when used for service temperature control."
+  },
+  "berry-me-up": {
+    "description": "Dark chocolate ganache, drinking yoghurt and elderberry juice shaken cold: tart berry lift with rounded cocoa depth..",
+    "yield": "Liquid dark chocolate ganache, 50 ml · Drinking yoghurt, 80 ml · Elderberry juice, 120 ml",
+    "ingredients": [
+      "Liquid dark chocolate ganache, 50 ml",
+      "Drinking yoghurt, 80 ml",
+      "Elderberry juice, 120 ml",
+      "Hard ice cubes, 120 g",
+      "Cocoa nibs, 3 g",
+      "Ground cardamom, 0.1–0.2 g"
+    ],
+    "method": [
+      "Chill the glass. Yoghurt stays cold.",
+      "Dark ganache with a little yoghurt, until smooth.",
+      "Elderberry juice and cardamom. Rest of the yoghurt, until glossy.",
+      "Cocoa nibs. Serve cold."
+    ],
+    "proTip": "Cold chocolate drinks need texture control: blend until smooth, then stop before the body turns thin.",
+    "serve": "Serve cold in a chilled 220–260 ml glass."
+  },
+  "have-no-fear-beetroot-s-here": {
+    "description": "Warm beetroot juice, dark chocolate and whisky.",
+    "yield": "Beetroot juice, 180 ml · Ground dark chocolate, 50 g · Whisky, 25 ml",
+    "ingredients": [
+      "Beetroot juice, 180 ml",
+      "Ground dark chocolate, 50 g",
+      "Whisky, 25 ml"
+    ],
+    "method": [
+      "Warm the beetroot juice. Do not boil.",
+      "Dark chocolate with a splash of the juice, until glossy. Rest of the juice in.",
+      "Whisky in a warm glass.",
+      "Hot beetroot-chocolate over the whisky. Stir once.",
+      "Serve hot. Chocolate leads; beetroot is colour and depth."
+    ],
+    "proTip": "Beetroot can turn earthy fast.",
+    "serve": "Serve hot in a warmed 220–240 ml glass or cup; mark clearly when whisky is added."
+  },
+  "mango-django": {
+    "description": "Dark chocolate ganache and mango served cold in visible layers, with spice only when it supports the tropical chocolate finish..",
+    "yield": "Liquid dark chocolate ganache, 50 ml · Chilled mango juice, 200 ml · Large ice ball or hard ice cubes, 120 g",
+    "ingredients": [
+      "Liquid dark chocolate ganache, 50 ml",
+      "Chilled mango juice, 200 ml",
+      "Large ice ball or hard ice cubes, 120 g",
+      "Cardamom, chai spice or piri piri, 0.1–0.2 g"
+    ],
+    "method": [
+      "Chill the glass. Mango juice stays cold.",
+      "Dark ganache with a splash of mango, until smooth.",
+      "Rest of the mango. A hint of spice — lift, not heat.",
+      "Over a large ice ball. Serve cold. They may stir."
+    ],
+    "proTip": "Cold chocolate drinks need texture control: blend until smooth, then stop before the body turns thin.",
+    "serve": "Serve cold in a clear 280–300 ml glass with visible dark ganache base and mango layer."
+  },
+  "blueberry-thrills": {
+    "description": "Dark chocolate ganache, buttermilk and blueberries blended cold: tangy dairy, fruit freshness and cocoa depth..",
+    "yield": "Liquid dark chocolate ganache, 50 ml · Cold buttermilk, 200 ml · Blueberries, 60 g",
+    "ingredients": [
+      "Liquid dark chocolate ganache, 50 ml",
+      "Cold buttermilk, 200 ml",
+      "Blueberries, 60 g",
+      "Flaxseed, 5 g",
+      "Blueberries for garnish, 3–5 pc"
+    ],
+    "method": [
+      "Chill the glass. Dairy stays cold.",
+      "Dark ganache in first.",
+      "Blueberries and flaxseed, blended into the texture.",
+      "Buttermilk gradually, until glossy.",
+      "Blueberries on top. Serve cold."
+    ],
+    "proTip": "Cold chocolate drinks need texture control: blend until smooth, then stop before the body turns thin.",
+    "serve": "Serve in a chilled 260–280 ml glass, with a flaxseed rim when it is part of the service recipe."
+  }
+}

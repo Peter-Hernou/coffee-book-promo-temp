@@ -1,0 +1,10 @@
+{
+  "name": "coffee-book-flipbook",
+  "private": true,
+  "description": "Standalone Coffee Book flipbook, built from phmenu.studio recipe content.",
+  "scripts": {
+    "extract": "node tools/extract-from-studio.cjs",
+    "d2d": "python3 tools/build-d2d-epub.py",
+    "start": "npx --yes http-server . -p 4177 -c 86400 --cors"
+  }
+}

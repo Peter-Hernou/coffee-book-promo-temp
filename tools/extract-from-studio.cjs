@@ -118,10 +118,6 @@ function slug(value) {
   return norm(value).replace(/\s+/g, '-') || 'drink';
 }
 
-function photoFileName(rel) {
-  return path.basename(rel).replace(/\s+\d+(?=\.[^.]+$)/, '');
-}
-
 function copyFile(from, to) {
   fs.mkdirSync(path.dirname(to), { recursive: true });
   fs.copyFileSync(from, to);
@@ -133,7 +129,7 @@ function localPhoto(api, recipeLike, destDir, used) {
   const rel = String(photo.src).replace(/^\.\//, '').split('?')[0];
   const from = path.join(STUDIO, rel);
   if (!fs.existsSync(from)) return null;
-  const key = photoFileName(rel);
+  const key = path.basename(rel);
   const destRel = `photos/${key}`;
   if (!used.has(destRel)) {
     copyFile(from, path.join(destDir, key));
@@ -154,7 +150,7 @@ function localCategoryHero(api, category, destDir, used) {
   const rel = String(photo.src).replace(/^\.\//, '').split('?')[0];
   const from = path.join(STUDIO, rel);
   if (!fs.existsSync(from)) return null;
-  const key = photoFileName(rel);
+  const key = path.basename(rel);
   const destRel = `photos/${key}`;
   if (!used.has(destRel)) {
     copyFile(from, path.join(destDir, key));

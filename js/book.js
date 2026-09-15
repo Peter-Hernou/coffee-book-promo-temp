@@ -108,22 +108,6 @@
 
   let pageCopy = {};
 
-  const ALLERGEN_LABEL = {
-    milk: "Milk",
-    nuts: "Nuts",
-    soy: "Soy",
-    gluten: "Gluten",
-    sulphites: "Sulphites",
-    sesame: "Sesame",
-    egg: "Egg",
-  };
-
-  function formatAllergen(name) {
-    const key = String(name || "").toLowerCase();
-    if (!key) return "";
-    return ALLERGEN_LABEL[key] || key.charAt(0).toUpperCase() + key.slice(1);
-  }
-
   function bookRecipe(recipe, chapter) {
     const overlay = pageCopy[recipe.id] || {};
     const method = uniqueSteps(
@@ -137,7 +121,6 @@
     const ingredients = (overlay.ingredients || recipe.ingredients || [])
       .map(tidyIngredient)
       .filter(Boolean);
-    const allergens = (recipe.allergens || []).map(formatAllergen).filter(Boolean);
     return {
       type: "recipe",
       title: overlay.title || recipe.title,
@@ -154,7 +137,6 @@
       method,
       proTip: tip,
       serve,
-      allergens,
       containsAlcohol: !!recipe.containsAlcohol,
       recipeId: recipe.id,
       running: chapter.title,
@@ -358,13 +340,7 @@
       </div>`;
     }
     if (page.type === "recipe") {
-      const packed =
-        (page.method || []).length >= 6 ||
-        (page.ingredients || []).length >= 8 ||
-        (page.method || []).length + (page.ingredients || []).length >= 10
-          ? " recipe-page--packed"
-          : "";
-      const allergens = (page.allergens || []).join(" · ");
+      const packed = (page.method || []).length >= 6 ? " recipe-page--packed" : "";
       return `<div class="leaf__inner recipe-page${packed}">
         ${running}
         <h2 class="display display--md">${escapeHtml(page.title)}</h2>
@@ -383,7 +359,6 @@
         <div class="recipe-foot">
           ${page.proTip ? `<p class="note recipe-tip"><em>${escapeHtml(page.proTip)}</em></p>` : ""}
           ${page.serve ? `<p class="note recipe-serve">${escapeHtml(page.serve)}</p>` : ""}
-          ${allergens ? `<p class="note recipe-allergens">Contains ${escapeHtml(allergens)}</p>` : ""}
           ${page.containsAlcohol ? `<p class="note recipe-mark">Contains alcohol</p>` : ""}
         </div>
         ${folio}
@@ -1517,7 +1492,7 @@
 
   function renderContents(filter) {
     const needle = String(filter || "").trim().toLowerCase();
-    const html = book.chapters
+    contentsBody.innerHTML = book.chapters
       .map((chapter, index) => {
         const recipes = chapter.recipes.filter((recipe) => {
           if (!needle) return true;
@@ -1542,7 +1517,6 @@
         </section>`;
       })
       .join("");
-    contentsBody.innerHTML = html || `<p class="overlay__empty">No drinks match that search.</p>`;
     bindJumps(contentsBody);
     contentsBody.querySelectorAll(".overlay__chapter").forEach((btn) => {
       btn.addEventListener("click", () => setOpenChapter(btn.closest(".overlay__group")));
@@ -1578,8 +1552,8 @@
       if (Number.isFinite(index)) goTo(index);
     });
     document.addEventListener("keydown", (e) => {
-      if (overlay.hidden === false) {
-        if (e.key === "Escape") overlay.hidden = true;
+      if (overlay.hidden === false && e.key === "Escape") {
+        overlay.hidden = true;
         return;
       }
       if (e.key === "ArrowRight" || e.key === "PageDown" || e.key === " ") {
@@ -1622,9 +1596,9 @@
       maxShadowOpacity: 0.35,
       showCover: false,
       startPage: portrait ? 1 : 0,
-      usePortrait: true,
+      usePortrait: portrait,
       autoSize: true,
-      mobileScrollSupport: true,
+      mobileScrollSupport: false,
       swipeDistance: 28,
       flippingTime: FLIP_ANIM_MS,
       useMouseEvents: true,

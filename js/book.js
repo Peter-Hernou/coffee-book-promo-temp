@@ -377,23 +377,30 @@
     }
     if (page.type === "studio-gate") {
       const points = (page.points || [])
-        .map((line) => `<li>${escapeHtml(line)}</li>`)
+        .map((line) => {
+          const parts = String(line).split(" — ");
+          if (parts.length >= 2) {
+            return `<h3>${escapeHtml(parts[0])}</h3><p class="body">${escapeHtml(parts.slice(1).join(" — "))}</p>`;
+          }
+          return `<p class="body">${escapeHtml(line)}</p>`;
+        })
         .join("");
-      const logo = page.logo
-        ? `<img class="studio-gate__logo" src="${escapeHtml(photoSrc(page.logo))}" alt="${escapeHtml(page.logoAlt || "phmenu.studio")}" />`
-        : "";
       const href = escapeHtml(page.siteHref || "https://phmenu.studio");
-      return `<div class="leaf__inner studio-gate">
+      const logoSrc = escapeHtml(photoSrc(page.logo || "photos/brand/phmenu-logo.png"));
+      const logoAlt = escapeHtml(page.logoAlt || "phmenu.studio");
+      return `<div class="leaf__inner prep-page studio-gate">
         ${running}
         <p class="kicker">${escapeHtml(page.kicker || "Studio")}</p>
-        <h2 class="display display--xl">${escapeHtml(page.title)}</h2>
-        ${page.title2 ? `<h2 class="display display--xl how-page__line">${escapeHtml(page.title2)}</h2>` : ""}
-        ${page.lede ? `<p class="lede">${escapeHtml(page.lede)}</p>` : ""}
+        <h2 class="display display--lg">${escapeHtml(page.title)}</h2>
+        ${page.title2 ? `<h2 class="display display--lg how-page__line">${escapeHtml(page.title2)}</h2>` : ""}
         <hr class="rule" />
-        ${points ? `<ul class="studio-gate__points">${points}</ul>` : ""}
-        <div class="studio-gate__brand">
-          ${logo}
-          <a class="studio-gate__cta" href="${href}" target="_blank" rel="noopener">${escapeHtml(page.cta || "Visit phmenu.studio")}</a>
+        ${page.lede ? `<p class="body studio-gate__lede">${escapeHtml(page.lede)}</p>` : ""}
+        ${points}
+        <div class="studio-gate__frame">
+          <a class="studio-gate__visit" href="${href}" target="_blank" rel="noopener">
+            <span class="studio-gate__visit-label">Visit</span>
+            <img class="studio-gate__logo" src="${logoSrc}" alt="${logoAlt}" />
+          </a>
           <p class="studio-gate__url"><a href="${href}" target="_blank" rel="noopener">${escapeHtml(page.site || "phmenu.studio")}</a></p>
         </div>
         ${folio}

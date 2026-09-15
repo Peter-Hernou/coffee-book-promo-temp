@@ -375,6 +375,30 @@
         ${folio}
       </div>`;
     }
+    if (page.type === "studio-gate") {
+      const points = (page.points || [])
+        .map((line) => `<li>${escapeHtml(line)}</li>`)
+        .join("");
+      const logo = page.logo
+        ? `<img class="studio-gate__logo" src="${escapeHtml(photoSrc(page.logo))}" alt="${escapeHtml(page.logoAlt || "phmenu.studio")}" />`
+        : "";
+      const href = escapeHtml(page.siteHref || "https://phmenu.studio");
+      return `<div class="leaf__inner studio-gate">
+        ${running}
+        <p class="kicker">${escapeHtml(page.kicker || "Studio")}</p>
+        <h2 class="display display--xl">${escapeHtml(page.title)}</h2>
+        ${page.title2 ? `<h2 class="display display--xl how-page__line">${escapeHtml(page.title2)}</h2>` : ""}
+        ${page.lede ? `<p class="lede">${escapeHtml(page.lede)}</p>` : ""}
+        <hr class="rule" />
+        ${points ? `<ul class="studio-gate__points">${points}</ul>` : ""}
+        <div class="studio-gate__brand">
+          ${logo}
+          <a class="studio-gate__cta" href="${href}" target="_blank" rel="noopener">${escapeHtml(page.cta || "Visit phmenu.studio")}</a>
+          <p class="studio-gate__url"><a href="${href}" target="_blank" rel="noopener">${escapeHtml(page.site || "phmenu.studio")}</a></p>
+        </div>
+        ${folio}
+      </div>`;
+    }
     if (page.type === "closing-lead") {
       return `<div class="leaf__inner closing-page">
         ${running}
@@ -427,6 +451,7 @@
     if (page.type === "collection") el.classList.add("leaf--collection");
     if (page.type === "chapter") el.classList.add("leaf--chapter");
     if (page.type === "closing" || page.type === "closing-lead") el.classList.add("leaf--closing");
+    if (page.type === "studio-gate") el.classList.add("leaf--studio-gate");
     if (page.type === "chapter-plate") {
       el.classList.add("leaf--chapter-plate");
       if (page.hero && !(page.mosaic && page.mosaic.length >= 2)) el.classList.add("leaf--photo");
@@ -1208,17 +1233,20 @@
 
     const gateIndex = out.length;
     out.push({
-      type: "closing",
-      kicker: "From book to bar",
-      title: "Know the drink.",
-      title2: "Then make it yours.",
+      type: "studio-gate",
+      kicker: "From this book to the studio",
+      title: "Same craft.",
+      title2: "More tools.",
       running: data.title,
-      lede: "A recipe is a starting point. Taste is the last word.",
-      paragraphs: [
-        "These pages hold the method. Your hands finish it.",
-        "When you want the same craft in the tool — living library, drinks card, Menu QR, cost and margin — that lives at phmenu.studio.",
+      lede: "This book is the pour. phmenu.studio is where you keep building — with the same drinks, plus the tools for home and hospitality.",
+      points: [
+        "Free peek — 15 complete recipes to start",
+        "Coffee Book — the full living library",
+        "Plus & Pro — drinks cards, Menu QR, cost and margin",
       ],
-      creds: ["PHMENU.STUDIO", "Free peek · Coffee Book · Pro"],
+      logo: "photos/brand/phmenu-logo.png",
+      logoAlt: "phmenu.studio",
+      cta: "Visit phmenu.studio",
       site: "phmenu.studio",
       siteHref: "https://phmenu.studio",
       label: "Studio",

@@ -1206,7 +1206,23 @@
       ],
     });
 
-    padSpread(out);
+    const gateIndex = out.length;
+    out.push({
+      type: "closing",
+      kicker: "From book to bar",
+      title: "Know the drink.",
+      title2: "Then make it yours.",
+      running: data.title,
+      lede: "A recipe is a starting point. Taste is the last word.",
+      paragraphs: [
+        "These pages hold the method. Your hands finish it.",
+        "When you want the same craft in the tool — living library, drinks card, Menu QR, cost and margin — that lives at phmenu.studio.",
+      ],
+      creds: ["PHMENU.STUDIO", "Free peek · Coffee Book · Pro"],
+      site: "phmenu.studio",
+      siteHref: "https://phmenu.studio",
+      label: "Studio",
+    });
 
     data.chapters.forEach((chapter) => {
       const chapterIndex = out.length;
@@ -1317,6 +1333,7 @@
       { label: "Which coffee", jump: knowIndex + 6, number: out[knowIndex + 6] ? out[knowIndex + 6].number : "" },
       { label: "Milk", jump: knowIndex + 7, number: out[knowIndex + 7] ? out[knowIndex + 7].number : "" },
       { label: "Ice", jump: knowIndex + 8, number: out[knowIndex + 8] ? out[knowIndex + 8].number : "" },
+      { label: "From book to bar", jump: gateIndex, number: out[gateIndex] ? out[gateIndex].number : "" },
     ].concat(
       data.chapters.map((chapter) => {
         const jump = chapterJump.get(chapter.id);
